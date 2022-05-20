@@ -49,12 +49,12 @@ $cat_name = $cat->name;
               ?>
               <div class="column-item">
                 <a href="<?php the_permalink( ); ?>">
-                  <div class="column-item-img">
-                    <?php if (has_post_thumbnail()) : ?>
-                      <?php  echo get_the_post_thumbnail( $post->ID, 'thumbnail' ); ?>
-                    <?php else : ?>
-                      <img src="<?php print get_template_directory_uri(); ?>/assets/images/common/no_image.jpg" alt="Image">
-                    <?php endif; ?>
+                <?php $featured_img_url = get_the_post_thumbnail_url(get_the_ID(), 'btheme_eyecatch_big'); ?>
+                  <?php if (has_post_thumbnail()) {
+                    echo '<div class="column-item-img" style="background: url(' . esc_url($featured_img_url) . ')no-repeat center;background-size: cover;">';
+                  } else {
+                    echo '<div class="column-item-img no-image">';
+                  } ?>
                   </div>
                 </a>
                 <h3 class="column-item-ttl"><?php the_title(); ?></h3>

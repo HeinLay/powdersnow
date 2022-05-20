@@ -14,7 +14,25 @@
 
 get_header();
 ?>
-
+<section class="sec-mv top-mv clearfix">
+  <div class="l-inner">
+    <h2 class="mv-ttl">あらゆる悪意から会社を守り<br>企業価値を<span>最大化</span>する</h2>
+    <div class="mv-btn">
+      <a href="#" class="mv-inquiry-btn">お問い合わせ</a>
+      <a href="#" class="mv-request-btn">資料請求</a>
+    </div>
+    <div class="img-growth-rate">
+      <img src="<?php bloginfo('template_directory'); ?>/assets/images/top/img_mv_no1.png" alt="成長率">
+    </div>
+      <p class="mv-txt">&#8251 1 2021年7月末時点で昨対比187%成長</p>
+  </div>
+  <div class="mv-persontxt-blk">
+    <p class="mv-txt">CYBER VALUE 公式アンバサダー<br>ピアニスト＆ヴォーカリスト<br>森陽子</p>
+    <div class="mv-person-img">
+        <img src="<?php bloginfo('template_directory'); ?>/assets/images/top/img_person.png" alt="あらゆる悪意から会社を守り企業価値を最大化する">
+    </div>
+  </div>
+</section><!-- ./sec-mv -->
 <section class="sec-about l-inner">
   <div class="about-blk">
       <h2 class="toppg-ttl"><span class="sub-ttl">ABOUT</span><span class="align-ttl">CYBER VALUE</span>とは</h2>
@@ -303,13 +321,12 @@ get_header();
           $slug_name = $cat[0]->slug;
           ?>
           <div class="column-item">
-            <div class="column-img">
             <?php $featured_img_url = get_the_post_thumbnail_url(get_the_ID(), 'btheme_eyecatch_big'); ?>
-              <?php if (has_post_thumbnail()) : ?>
-                <?php  echo get_the_post_thumbnail( $post->ID, 'thumbnail' ); ?>
-              <?php else : ?>
-                <img src="<?php print get_template_directory_uri(); ?>/assets/images/common/no_image.jpg" alt="Image">
-              <?php endif; ?>
+            <?php if (has_post_thumbnail()) {
+             echo '<div class="column-img" style="background: url(' . esc_url($featured_img_url) . ')no-repeat center;background-size: cover;">';
+           } else {
+             echo '<div class="column-img no-image">';
+           } ?>
             </div>
             <div class="column-txt">
               <h3 class="column-item-ttl"><?php the_title(); ?></h3>
