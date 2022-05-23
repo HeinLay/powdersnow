@@ -60,7 +60,7 @@
 <div id="chatbot-btn" class="chat-bot-btn">
             <a href="#" class="chat-bot">
                 <div class="chat-icon">
-                    <img src="<?php bloginfo('template_directory'); ?>/assets/images/common/icon_chat.png" alt="ChatBot">
+                    <img src="<?php bloginfo('template_directory'); ?>/assets/images/common/ico_chat.png" alt="ChatBot">
                 </div>
                 <p>チャットボットのサンプルです</p>
             </a>

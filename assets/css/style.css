@@ -39,12 +39,18 @@
 ------------------------------------------------------------- */
 .top-mv {
   position: relative;
+  z-index: 0;
+  padding: 140px 0 50px;
+  background-image: linear-gradient(rgba(245, 242, 239, 0.75), rgba(245, 242, 239, 0.75)), url('../images/top/img_mv_bg.png');
 }
 
 .top-mv .mv-persontxt-blk {
+  display: flex;
   position: absolute;
   right: 0;
-  top: 0;
+  bottom: 0;
+  align-items: flex-end;
+  z-index: -1;
 }
 
 .top-mv .mv-person-img {
@@ -52,13 +58,16 @@
 }
 
 .top-mv .mv-txt {
+  padding-top: 20px;
   color: #1d4366;
   font-size: 13px;
+  font-weight: 400;
+  letter-spacing: 0.5px;
 }
 
 .top-mv .mv-ttl {
   color: #1d4366;
-  font-size: 40px;
+  font-size: 55px;
   font-weight: 700;
   text-align: center;
 }
@@ -67,11 +76,15 @@
   color: #df543a;
 }
 
-.top-mv .img-growth-rate {
-  max-width: 150px;
+.top-mv .growth-col {
   position: absolute;
-  top: 58%;
-  transform: translateY(-50%);
+  top: 57%;
+  width: 260px;
+}
+
+.top-mv .img-growth-rate {
+  margin-left: 40px;
+  max-width: 183px;
 }
 
 .top-mv .mv-btn {
@@ -100,13 +113,10 @@
   background-color: #df543a;
 }
 
-.top-mv .mv-persontxt-blk {
-  display: flex;
-  align-items: flex-end;
-}
-
 .top-mv .mv-persontxt-blk .mv-txt {
-  margin-bottom: 58px;
+  line-height: 2;
+  margin-right: -79px;
+  margin-bottom: 34px;
 }
 
 /* sec-about
@@ -626,9 +636,9 @@
 }
 
 .sec-column .right-column-item .column-item {
-  width: 30%;
   margin-right: 5%;
   font-size: 14px;
+  max-width: 318px;
 }
 
 .sec-column .right-column-item .column-item:nth-child(3n) {
@@ -848,69 +858,62 @@
 }
 
 #service-detail-page .service-detail-content {
-  padding: 116px 30px;
-}
-
-#service-detail-page .service-detail-content .service-detail-row {
-  display: flex;
-  justify-content: space-between;
-  padding-bottom: 92px;
-}
-
-#service-detail-page .service-detail-content .service-detail-row:last-child {
-  padding-bottom: 0;
+  padding: 112px 30px;
 }
 
 #service-detail-page .service-detail-content .service-detail-row:nth-child(2n) {
-  flex-direction: row-reverse;
+  padding: 90px 0;
 }
 
-#service-detail-page .service-detail-content .service-detail-row .left-service-detail {
-  width: 46%;
-  max-width: 611px;
-}
-
-#service-detail-page .service-detail-content .service-detail-row .right-service-detail {
-  width: 50%;
-}
-
-#service-detail-page .service-detail-content .service-detail-row .right-service-detail p {
-  line-height: 2;
-}
-
-#service-detail-page .service-detail-content .service-detail-row:first-child .right-service-detail p {
-  line-height: 1.5;
-}
-
-#service-detail-page .service-detail-content .service-detail-row .right-service-detail .service-detail-ttl {
+#service-detail-page .service-detail-content .service-detail-row .service-detail-ttl {
   position: relative;
-  padding: 0 0 48px 6px;
   color: #1d4366;
   font-size: 25px;
   font-weight: 700;
-}
-
-#service-detail-page .service-detail-content .service-detail-row:nth-child(2n) .right-service-detail .service-detail-ttl {
-  padding: 18px 0 52px 10px;
-}
-
-#service-detail-page .service-detail-content .service-detail-row .right-service-detail .service-detail-ttl::before {
-  display: inline-block;
-  position: absolute;
-  top: 47%;
-  left: 0;
-  width: 100%;
-  content: '';
-  transform: translateY(-50%);
+  text-indent: 9px;
   border-bottom: 1px solid #1d4366;
 }
 
-#service-detail-page .service-detail-content .service-detail-row:nth-child(2n) .right-service-detail .service-detail-ttl::before {
-  top: 57%;
+#service-detail-page .service-detail-content .service-detail-row .service-txt {
+  line-height: 1.9;
+  padding-top: 40px;
 }
 
-#service-detail-page .service-detail-content .service-detail-row .right-service-detail .service-txt {
-  padding-top: 40px;
+#service-detail-page .service-detail-content .factors-row {
+  padding: 45px 72px;
+}
+
+#service-detail-page .service-detail-content .factors-row .factors-item {
+  width: 550px;
+  padding: 27px 30px;
+  border: 1px solid #df543a;
+}
+
+#service-detail-page .service-detail-content .factors-row .factors-item .circle-row {
+  display: flex;
+  justify-content: center;
+  padding: 28px 0;
+}
+
+#service-detail-page .service-detail-content .factors-row .factors-item .circle-txt {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 107px;
+  height: 107px;
+  margin-left: 25px;
+  background-color: rgba(204, 212, 218, 0.69);
+  color: #1d4366;
+  font-size: 18px;
+  font-weight: 700;
+  border-radius: 50%;
+}
+
+#service-detail-page .service-detail-content .detail-list-txt {
+  color: #df543a;
+  font-size: 18px;
+  font-weight: 700;
+  text-align: center;
 }
 
 /* Works Page */
@@ -1361,38 +1364,49 @@
 
   /* top-mv
 ------------------------------------------------------------- */
+  .top-mv {
+    padding: 9.69vw 0 7.032vw;
+  }
 
-.top-mv .mv-person-img {
-  max-width: 32.258vw;
-}
+  .top-mv .mv-person-img {
+    max-width: 32.258vw;
+  }
 
-.top-mv .mv-txt {
-  font-size: 1.048vw;
-}
+  .top-mv .mv-txt {
+    padding-top: 1.613vw;
+    font-size: 1.048vw;
+    letter-spacing: 0.04vw;
+  }
 
-.top-mv .mv-ttl {
-  font-size: 3.226vw;
-}
+  .top-mv .mv-ttl {
+    font-size: 4.435vw;
+  }
 
-.top-mv .img-growth-rate {
-  max-width: 12.097vw;
-}
+  .top-mv .growth-col {
+    width: 20.968vw;
+  }
 
-.top-mv .mv-btn {
-  width: 35.484vw;
-  padding: 5.242vw 0;
-}
+  .top-mv .img-growth-rate {
+    margin-left: 3.226vw;
+    max-width: 14.758vw;
+  }
 
-.top-mv .mv-btn a {
-  width: 16.129vw;
-  padding: 1.29vw;
-  font-size: 1.452vw;
-  border-radius: 2.419vw;
-}
+  .top-mv .mv-btn {
+    width: 35.484vw;
+    padding: 5.242vw 0;
+  }
 
-.top-mv .mv-persontxt-blk .mv-txt {
-  margin-bottom: 4.677vw;
-}
+  .top-mv .mv-btn a {
+    width: 16.129vw;
+    padding: 1.29vw;
+    font-size: 1.452vw;
+    border-radius: 2.419vw;
+  }
+
+  .top-mv .mv-persontxt-blk .mv-txt {
+    margin-right: -6.371vw;
+    margin-bottom: 2.742vw;
+  }
 
   /* toppg-ttl
 ------------------------------------------------------------- */
@@ -1708,11 +1722,12 @@
 
   .sec-column .right-column-item .column-item {
     font-size: 1.129vw;
+    max-width: 25.645vw;
   }
 
   .sec-column .right-column-item .column-item .column-img {
-    width: 25.645vw;
-    height: 17.016vw;
+    width: 22.845vw;
+    height: 15.816vw;
   }
 
   .sec-column .right-column-item .column-item .column-item-ttl {
@@ -1831,31 +1846,6 @@
     padding: 9.355vw 2.419vw;
   }
 
-  #service-detail-page .service-detail-content .service-detail-row {
-    padding-bottom: 7.419vw;
-  }
-
-  #service-detail-page .service-detail-content .service-detail-row .left-service-detail {
-    max-width: 49.274vw;
-  }
-
-  #service-detail-page .service-detail-content .service-detail-row .right-service-detail .service-detail-ttl {
-    padding: 0 0 3.871vw 0.484vw;
-    font-size: 2.016vw;
-  }
-
-  #service-detail-page .service-detail-content .service-detail-row:nth-child(2n) .right-service-detail .service-detail-ttl {
-    padding: 1.452vw 0 4.194vw 0.806vw;
-  }
-
-  #service-detail-page .service-detail-content .service-detail-row .right-service-detail .service-detail-ttl::before {
-    border-bottom: 0.081vw solid #1d4366;
-  }
-
-
-  #service-detail-page .service-detail-content .service-detail-row .right-service-detail .service-txt {
-    padding-top: 3.226vw;
-  }
 
   /* Works Page */
   #works-page .sec-works {
@@ -2099,6 +2089,75 @@
   }
 
   /*Home Page*/
+  /* top-mv
+------------------------------------------------------------- */
+  .top-mv {
+    padding: 9.397vw 0 103.821vw;
+  }
+
+  .top-mv .l-inner {
+    padding: 0;
+  }
+
+  .top-mv .mv-person-img {
+    max-width: 53.846vw;
+  }
+
+  .top-mv .mv-txt {
+    padding-top: 0;
+    font-size: 2.821vw;
+    letter-spacing: 0.128vw;
+  }
+
+  .top-mv .mv-ttl {
+    font-size: 6.41vw;
+  }
+
+  .top-mv .growth-col {
+    position: absolute;
+    top: 30.3%;
+    left: 11.1%;
+    width: 42.308vw;
+  }
+
+  .top-mv .growth-col .mv-txt {
+    padding-top: 2.732vw;
+    font-size: 2.564vw;
+  }
+
+  .top-mv .img-growth-rate {
+    margin-left: 0.128vw;
+    max-width: 29.744vw;
+  }
+
+  .top-mv .mv-btn {
+    position: absolute;
+    align-items: center;
+    top: 83.5%;
+    bottom: 0;
+    width: 100%;
+    padding: 20px;
+    background: url('../images/top/img_mv_btn_bg.png');
+  }
+
+  .top-mv .mv-btn a {
+    width: 41.026vw;
+    padding: 3.103vw;
+    font-size: 4.103vw;
+    border-radius: 7.692vw;
+  }
+
+  .top-mv .mv-persontxt-blk {
+    top: 23.7%;
+    bottom: unset;
+  }
+
+  .top-mv .mv-persontxt-blk .mv-txt {
+    line-height: 1.8;
+    margin-right: -5.128vw;
+    margin-bottom: 4.354vw;
+    text-align: right;
+  }
 
   /* toppg-ttl
 ------------------------------------------------------------- */
@@ -2124,7 +2183,7 @@
   /* sec-about
 ------------------------------------------------------------- */
   .sec-about {
-    padding-top: 30.769vw;
+    padding-top: 15.769vw;
   }
 
   .sec-about .about-blk {
@@ -2139,7 +2198,7 @@
   }
 
   .sec-about .about-blk .about-txt {
-    padding: 10.513vw 0 0;
+    padding: 6.513vw 0 0;
     font-size: 3.59vw;
     letter-spacing: 0.256vw;
   }
@@ -2657,38 +2716,6 @@
     padding: 13.744vw 7.692vw;
   }
 
-  #service-detail-page .service-detail-content .service-detail-row {
-    flex-direction: column;
-    padding-bottom: 17.59vw;
-  }
-
-  #service-detail-page .service-detail-content .service-detail-row:nth-child(2n) {
-    flex-direction: column;
-  }
-
-  #service-detail-page .service-detail-content .service-detail-row .left-service-detail {
-    width: 100%;
-    max-width: 156.667vw;
-  }
-
-  #service-detail-page .service-detail-content .service-detail-row .right-service-detail {
-    width: 100%;
-    padding-top: 7.179vw;
-  }
-
-  #service-detail-page .service-detail-content .service-detail-row .right-service-detail .service-detail-ttl,
-  #service-detail-page .service-detail-content .service-detail-row:nth-child(2n) .right-service-detail .service-detail-ttl {
-    padding: 0 0 8.308vw 1.538vw;
-    font-size: 5.128vw;
-  }
-
-  #service-detail-page .service-detail-content .service-detail-row .right-service-detail .service-detail-ttl::before {
-    border-bottom: 0.256vw solid #1d4366;
-  }
-
-  #service-detail-page .service-detail-content .service-detail-row .right-service-detail .service-txt {
-    padding-top: 10.256vw;
-  }
 
   /* Works Page */
   #works-page .sec-works {

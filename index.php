@@ -21,10 +21,12 @@ get_header();
       <a href="#" class="mv-inquiry-btn">お問い合わせ</a>
       <a href="#" class="mv-request-btn">資料請求</a>
     </div>
-    <div class="img-growth-rate">
-      <img src="<?php bloginfo('template_directory'); ?>/assets/images/top/img_mv_no1.png" alt="成長率">
-    </div>
-      <p class="mv-txt">&#8251 1 2021年7月末時点で昨対比187%成長</p>
+    <div class="growth-col">
+      <div class="img-growth-rate">
+        <img src="<?php bloginfo('template_directory'); ?>/assets/images/top/img_mv_no1.png" alt="成長率">
+      </div>
+      <p class="mv-txt">&#8251 1 2021年7月末時点で<br class="sp">昨対比187%成長</p>
+    </div>      
   </div>
   <div class="mv-persontxt-blk">
     <p class="mv-txt">CYBER VALUE 公式アンバサダー<br>ピアニスト＆ヴォーカリスト<br>森陽子</p>
