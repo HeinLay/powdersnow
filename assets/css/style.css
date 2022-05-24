@@ -822,7 +822,7 @@
 }
 
 #service-detail-page .service-detail-content .service-detail-row:nth-child(2n) {
-  padding: 90px 0;
+  margin: 90px 0;
 }
 
 #service-detail-page .service-detail-content .service-detail-row .service-detail-ttl {
@@ -1836,7 +1836,7 @@
   }
 
   #service-detail-page .service-detail-content .service-detail-row:nth-child(2n) {
-    padding: 7.258vw 0;
+    margin: 7.258vw 0;
   }
   
   #service-detail-page .service-detail-content .service-detail-row .service-detail-ttl {
@@ -2750,7 +2750,7 @@
   }
 
   #service-detail-page .service-detail-content .service-detail-row:nth-child(2n) {
-    padding: 23.077vw 0;
+    margin: 23.077vw 0;
   }
   
   #service-detail-page .service-detail-content .service-detail-row .service-detail-ttl {

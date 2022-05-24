@@ -26,14 +26,14 @@ get_header();
             </ul>
         </div><!-- ./tabs-service-nav -->
         <section class="service-detail-content l-inner">
-            <div class="service-detail-row">
-                <h2 class="service-detail-ttl" id="service-overview">サービス概要</h2>
+            <div class="service-detail-row" id="service-overview">
+                <h2 class="service-detail-ttl">サービス概要</h2>
                 <p class="service-txt">Web上に存在する数え切れないほどの「声」を整理し、貴社にご報告すべき適切な情報を抽出します。専門家による目視調査とリスクランクの制定を実施し、報告いたします。<br>
                 数千から数万件ほどのローデータ（Web上に混在する情報）を収集し、弊社独自のチェックツールと専門家による目視検証を実施し、それらを分類したうえで、定められた規定に
                 従ってご報告します。リスクランクは高・中・小の3つに分類され、情報を交通整理します。</p>
             </div>
-            <div class="service-detail-row">
-                <h2 class="service-detail-ttl" id="survey-axis">調査の軸</h2>
+            <div class="service-detail-row" id="survey-axis">
+                <h2 class="service-detail-ttl">調査の軸</h2>
                 <div class="factors-row">
                     <div class="factors-item">
                         <p class="detail-list-txt">① 内部要因</p>
@@ -54,8 +54,8 @@ get_header();
                     </div>
                 </div>
             </div>
-            <div class="service-detail-row">
-                <h2 class="service-detail-ttl" id="cyber-value">CYBER VALUE が選ばれる理由</h2>
+            <div class="service-detail-row" id="cyber-value">
+                <h2 class="service-detail-ttl">CYBER VALUE が選ばれる理由</h2>
                 <dl class="reason-chosen-list">
                     <dt class="detail-list-txt">① 長年のWebマーケティング企業が運営</dt>
                         <dd>検索エンジンとセキュリティ診断の調査能力をかけあわせた独自の技術</dd>
