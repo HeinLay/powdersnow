@@ -40,7 +40,6 @@
                 <?php wp_nav_menu(array('theme_location'=>'primary'))?>
                 <div class="header-contact">
                     <a href="<?php echo get_permalink(get_page_by_path('contact')) ?>" class="contact-gmail">お問い合わせ</a>
-                    <a href="tel:03-6914-2718" class="contact-phone cmn-contactbtn">03-6914-2718</a>
                 </div>
             </div>
             <button class="menu-ico sp">

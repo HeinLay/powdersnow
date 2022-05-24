@@ -122,13 +122,12 @@
 /* sec-about
 ------------------------------------------------------------- */
 .sec-about {
-  padding-top: 120px;
+  padding: 120px 0;
 }
 
 .sec-about .about-blk {
   width: 65.8%;
   margin: 0 auto;
-  padding-bottom: 72px;
 }
 
 .sec-about .about-blk .align-ttl {
@@ -144,47 +143,9 @@
   font-feature-settings: "palt";
 }
 
-.sec-about .about-detail {
-  display: flex;
-  justify-content: space-between;
-  width: 1160px;
-  margin: 0 auto;
-  padding: 49px 66px;
-  border: 1px solid #1d4366;
-  border-radius: 15px;
-}
-
-.sec-about .about-detail .left-detail-img {
-  width: 44%;
-  max-width: 432px;
-}
-
-.sec-about .about-detail .right-detail-txt {
-  width: 51.1%;
-  padding-top: 48px;
-  padding-right: 120px;
-}
-
-.sec-about .about-detail .right-detail-txt .about-detail-ttl {
-  color: #1d4366;
-  font-size: 28px;
-  font-weight: 700;
-  letter-spacing: -1px;
-}
-
-.sec-about .about-detail .right-detail-txt .about-detail-txt {
-  line-height: 2;
-  padding: 41px 0 30px;
-}
-
-.sec-about .about-detail .right-detail-txt .detail-btn {
-  background-color: #df543a;
-}
-
 /* sec-reason
 ------------------------------------------------------------- */
 .sec-reason {
-  margin: 100px 0 0;
   padding: 78px 0;
   background-color: #f5f2ef;
 }
@@ -813,10 +774,9 @@
 
 /* sec-mv
 ------------------------------------------------------------- */
-.sec-service-detail-page {
-  background-image: linear-gradient(rgba(29, 67, 102, 0.80), rgba(29, 67, 102, 0.80)), url('../images/service/img_service_detail_mv.png');
+.sec-mv.service-web-mv {
+  background-image: linear-gradient(rgba(29, 67, 102, 0.80), rgba(29, 67, 102, 0.80)), url('../images/service/img_service_mv.png');
 }
-
 /* tabs-service-nav
 ------------------------------------------------------------- */
 #service-detail-page .tabs-service-nav {
@@ -879,20 +839,27 @@
   padding-top: 40px;
 }
 
+/* --Web/SNS-- */
 #service-detail-page .service-detail-content .factors-row {
-  padding: 45px 72px;
+  width: 1200px;
+  display: flex;
+  margin: 0 auto;
+  padding: 40px 0 10px;
 }
 
+#service-detail-page .service-detail-content .factors-row .factors-item:nth-child(2n) {
+  margin-left: 100px;
+} 
+
 #service-detail-page .service-detail-content .factors-row .factors-item {
-  width: 550px;
+  width: 50%;
   padding: 27px 30px;
   border: 1px solid #df543a;
 }
 
 #service-detail-page .service-detail-content .factors-row .factors-item .circle-row {
   display: flex;
-  justify-content: center;
-  padding: 28px 0;
+  padding: 28px 118px;
 }
 
 #service-detail-page .service-detail-content .factors-row .factors-item .circle-txt {
@@ -901,7 +868,6 @@
   align-items: center;
   width: 107px;
   height: 107px;
-  margin-left: 25px;
   background-color: rgba(204, 212, 218, 0.69);
   color: #1d4366;
   font-size: 18px;
@@ -909,11 +875,69 @@
   border-radius: 50%;
 }
 
+#service-detail-page .service-detail-content .factors-row .factors-item .circle-txt:nth-child(2n) {
+  margin-left: 35px;
+}
+
 #service-detail-page .service-detail-content .detail-list-txt {
   color: #df543a;
   font-size: 18px;
   font-weight: 700;
+}
+
+#service-detail-page .service-detail-content .factors-row .factors-item .detail-list-txt {
   text-align: center;
+}
+
+#service-detail-page .service-detail-content .service-detail-row .reason-chosen-list {
+  padding-top: 40px;
+}
+
+#service-detail-page .service-detail-content .service-detail-row .reason-chosen-list dt {
+  padding-bottom: 20px;
+}
+
+#service-detail-page .service-detail-content .service-detail-row .reason-chosen-list dd {
+  display: list-item;
+  list-style: upper-alpha;
+  margin-left: 22px;
+  line-height: 1.9;
+}
+
+#service-detail-page .service-detail-content .service-detail-row .roadmap-survey {
+  width: 1000px;
+  margin: 60px auto;
+  border: 1px solid #1d4366;
+  padding: 0 30px 60px;
+}
+
+#service-detail-page .service-detail-content .service-detail-row .roadmap-survey legend {
+  text-align: center;
+  font-size: 20px;
+  color: #1d4366;
+}
+
+#service-detail-page .service-detail-content .service-detail-row .roadmap-survey .detail-list-txt {
+  color: #1d4366;
+}
+
+#service-detail-page .service-detail-content .service-detail-row .roadmap-survey .reason-chosen-list dd {
+  display: unset;
+  list-style: none;
+  margin: 0;
+}
+
+#service-detail-page .service-detail-content .service-detail-row .media-monitoring {
+  color: #1d4366;
+  text-decoration: underline;
+  padding: 20px 0;
+}
+
+#service-detail-page .service-detail-content .service-detail-row .emergency-contact-img {
+  max-width: 1103px;
+  padding: 30px 0;
+  margin: 0 auto;
+  image-rendering: -webkit-optimize-contrast;
 }
 
 /* Works Page */
@@ -1212,11 +1236,6 @@
   text-align: center;
 }
 
-#contact-page .sec-contact-form .contact-urgent span {
-  color: #1d4366;
-  text-decoration: underline;
-}
-
 #contact-page .sec-contact-form form {
   position: relative;
 }
@@ -1432,11 +1451,7 @@
   /* sec-about
 ------------------------------------------------------------- */
   .sec-about {
-    padding-top: 9.677vw;
-  }
-
-  .sec-about .about-blk {
-    padding-bottom: 8.387vw;
+    padding: 9.677vw 0;
   }
 
   .sec-about .about-blk .align-ttl {
@@ -1449,35 +1464,9 @@
     letter-spacing: 0.081vw;
   }
 
-  .sec-about .about-detail {
-    width: 93.548vw;
-    padding: 3.952vw 5.323vw;
-    border: 0.081vw solid #1d4366;
-    border-radius: 1.21vw;
-  }
-
-  .sec-about .about-detail .left-detail-img {
-    max-width: 34.839vw;
-  }
-
-  .sec-about .about-detail .right-detail-txt {
-    padding-top: 0.565vw;
-    padding-right: 9.677vw;
-  }
-
-  .sec-about .about-detail .right-detail-txt .about-detail-ttl {
-    font-size: 2.258vw;
-    letter-spacing: -0.081vw;
-  }
-
-  .sec-about .about-detail .right-detail-txt .about-detail-txt {
-    padding: 3.306vw 0 2.419vw;
-  }
-
   /* sec-reason
 ------------------------------------------------------------- */
   .sec-reason {
-    margin: 8.065vw 0 0;
     padding: 6.29vw 0;
   }
 
@@ -1846,6 +1835,85 @@
     padding: 9.355vw 2.419vw;
   }
 
+  #service-detail-page .service-detail-content .service-detail-row:nth-child(2n) {
+    padding: 7.258vw 0;
+  }
+  
+  #service-detail-page .service-detail-content .service-detail-row .service-detail-ttl {
+    font-size: 2.016vw;
+    text-indent: 0.726vw;
+    border-bottom: 0.081vw solid #1d4366;
+  }
+  
+  #service-detail-page .service-detail-content .service-detail-row .service-txt {
+    padding-top: 3.226vw;
+  }
+  
+  /* --Web/SNS-- */
+  #service-detail-page .service-detail-content .factors-row {
+    width: 100%;
+    padding: 3.226vw 0 0.806vw;
+  }
+  
+  #service-detail-page .service-detail-content .factors-row .factors-item:nth-child(2n) {
+    margin-left: 5.065vw;
+  } 
+  
+  #service-detail-page .service-detail-content .factors-row .factors-item {
+    padding: 2.177vw 2.419vw;
+    border: 0.081vw solid #df543a;
+  }
+  
+  #service-detail-page .service-detail-content .factors-row .factors-item .circle-row {
+    padding: 2.258vw 9.516vw;
+  }
+  
+  #service-detail-page .service-detail-content .factors-row .factors-item .circle-txt {
+    width: 8.629vw;
+    height: 8.629vw;
+    font-size: 1.452vw;
+  }
+  
+  #service-detail-page .service-detail-content .factors-row .factors-item .circle-txt:nth-child(2n) {
+    margin-left: 2.823vw;
+  }
+  
+  #service-detail-page .service-detail-content .detail-list-txt {
+    font-size: 1.452vw;
+  }
+
+  #service-detail-page .service-detail-content .service-detail-row .reason-chosen-list {
+    padding-top: 3.226vw;
+  }
+  
+  #service-detail-page .service-detail-content .service-detail-row .reason-chosen-list dt {
+    padding-bottom: 1.613vw;
+  }
+  
+  #service-detail-page .service-detail-content .service-detail-row .reason-chosen-list dd {
+    margin-left: 1.774vw;
+  }
+  
+  #service-detail-page .service-detail-content .service-detail-row .roadmap-survey {
+    width: 80.645vw;
+    margin: 4.839vw auto;
+    border: 0.081vw solid #1d4366;
+    padding: 0 2.419vw 4.839vw;
+  }
+  
+  #service-detail-page .service-detail-content .service-detail-row .roadmap-survey legend {
+    font-size: 1.613vw;
+  }
+  
+  #service-detail-page .service-detail-content .service-detail-row .media-monitoring {
+    padding: 1.613vw 0;
+  }
+  
+  #service-detail-page .service-detail-content .service-detail-row .emergency-contact-img {
+    max-width: 88.952vw;
+    padding: 2.419vw 0;
+  }
+
 
   /* Works Page */
   #works-page .sec-works {
@@ -2183,14 +2251,13 @@
   /* sec-about
 ------------------------------------------------------------- */
   .sec-about {
-    padding-top: 15.769vw;
+    padding: 15.769vw 0;
   }
 
   .sec-about .about-blk {
     flex-direction: column;
     align-items: center;
     width: 100%;
-    padding-bottom: 7.313vw;
   }
 
   .sec-about .about-blk .align-ttl {
@@ -2203,43 +2270,9 @@
     letter-spacing: 0.256vw;
   }
 
-  .sec-about .about-detail {
-    flex-direction: column;
-    width: 100%;
-    padding: 9.764vw 4.821vw;
-    border: 0.256vw solid #1d4366;
-    border-radius: 2.564vw;
-  }
-
-  .sec-about .about-detail .left-detail-img {
-    width: 100%;
-    max-width: 79.487vw;
-  }
-
-  .sec-about .about-detail .right-detail-txt {
-    width: 100%;
-    padding-top: 5.595vw;
-    padding-right: 0;
-  }
-
-  .sec-about .about-detail .right-detail-txt .about-detail-ttl {
-    font-size: 5.897vw;
-    text-align: center;
-    letter-spacing: -0.256vw;
-  }
-
-  .sec-about .about-detail .right-detail-txt .about-detail-txt {
-    padding: 6.923vw 0 0;
-  }
-
-  .sec-about .about-detail .right-detail-txt .detail-btn {
-    margin: 0 auto;
-  }
-
   /* sec-reason
 ------------------------------------------------------------- */
   .sec-reason {
-    margin: 15.641vw 0 0;
     padding: 14.8vw 0;
   }
 
@@ -2714,6 +2747,89 @@
 
   #service-detail-page .service-detail-content {
     padding: 13.744vw 7.692vw;
+  }
+
+  #service-detail-page .service-detail-content .service-detail-row:nth-child(2n) {
+    padding: 23.077vw 0;
+  }
+  
+  #service-detail-page .service-detail-content .service-detail-row .service-detail-ttl {
+    font-size: 5.128vw;
+    text-indent: 2.308vw;
+    border-bottom: 0.256vw solid #1d4366;
+  }
+  
+  #service-detail-page .service-detail-content .service-detail-row .service-txt {
+    padding-top: 10.256vw;
+  }
+  
+  /* --Web/SNS-- */
+  #service-detail-page .service-detail-content .factors-row {
+    width: 100%;
+    padding: 10.256vw 0 2.564vw;
+    flex-direction: column;
+  }
+  
+  #service-detail-page .service-detail-content .factors-row .factors-item:nth-child(2n) {
+    margin-left: 0;
+    margin-top: 11.641vw;
+  } 
+  
+  #service-detail-page .service-detail-content .factors-row .factors-item {
+    width: 100%;
+    padding: 6.923vw 7.692vw;
+    border: 0.256vw solid #df543a;
+  }
+  
+  #service-detail-page .service-detail-content .factors-row .factors-item .circle-row {
+    padding: 7.179vw 0;
+    justify-content: space-around;
+  }
+  
+  #service-detail-page .service-detail-content .factors-row .factors-item .circle-txt {
+    width: 24.436vw;
+    height: 24.436vw;
+    font-size: 4.103vw;
+  }
+  
+  #service-detail-page .service-detail-content .factors-row .factors-item .circle-txt:nth-child(2n) {
+    margin-left: 0;
+  }
+  
+  #service-detail-page .service-detail-content .detail-list-txt {
+    font-size: 4.103vw;
+  }
+
+  #service-detail-page .service-detail-content .service-detail-row .reason-chosen-list {
+    padding-top: 10.256vw;
+  }
+  
+  #service-detail-page .service-detail-content .service-detail-row .reason-chosen-list dt {
+    padding-bottom: 5.128vw;
+  }
+  
+  #service-detail-page .service-detail-content .service-detail-row .reason-chosen-list dd {
+    margin-left: 5.641vw;
+  }
+  
+  #service-detail-page .service-detail-content .service-detail-row .roadmap-survey {
+    width: 100%;
+    margin: 13.385vw auto 4.587vw;
+    border: 0.256vw solid #1d4366;
+    padding: 0 7.692vw 15.385vw;
+  }
+  
+  #service-detail-page .service-detail-content .service-detail-row .roadmap-survey legend {
+    font-size: 4.615vw;
+  }
+
+  #service-detail-page .service-detail-content .service-detail-row .media-monitoring {
+    padding: 5.128vw 0;
+  }
+  
+  #service-detail-page .service-detail-content .service-detail-row .emergency-contact-img {
+    max-width: 100%;
+    padding: 7.692vw 0;
   }
 
 

@@ -128,8 +128,7 @@ background-size: cover;
   width: 58%;
 }
 
-.contact-gmail::before,
-.contact-phone::before {
+.contact-gmail::before {
   position: absolute;
   top: 50%;
   width: 18px;
@@ -141,11 +140,6 @@ background-size: cover;
 .contact-gmail::before {
   left: 20%;
   background: url(../images/common/ico_email.png) no-repeat center/contain;
-}
-
-.contact-phone::before {
-  left: 13%;
-  background: url(../images/common/ico_phone.png) no-repeat center/contain;
 }
 
 .contact-gmail,
@@ -160,16 +154,9 @@ background-size: cover;
 }
 
 .contact-gmail {
-  margin-right: 3.7%;
   padding-right: 48px;
   padding-left: 68px;
   background-color: #1d4366;
-}
-
-.contact-phone {
-  padding: 5px 22px 9px 50px;
-  font-size: 20px;
-  pointer-events: none;
 }
 
 .cmn-contactbtn {
@@ -488,8 +475,7 @@ footer {
     width: 70%;
   }
 
-  .contact-gmail::before,
-  .contact-phone::before {
+  .contact-gmail::before {
     width: 1.452vw;
     height: 1.452vw;
   }
@@ -504,11 +490,6 @@ footer {
   .contact-gmail {
     padding-right: 3.871vw;
     padding-left: 5.484vw;
-  }
-
-  .contact-phone {
-    padding: 0.403vw 1.774vw 0.626vw 4.032vw;
-    font-size: 1.613vw;
   }
 
   .cmn-contactbtn {
@@ -777,18 +758,13 @@ footer {
     padding-bottom: 9.744vw;
   }
 
-  .contact-gmail::before,
-  .contact-phone::before {
+  .contact-gmail::before {
     width: 4.103vw;
     height: 4.103vw;
   }
 
   .contact-gmail::before {
     left: 15%;
-  }
-
-  .contact-phone::before {
-    left: 9%;
   }
 
   .contact-gmail,
@@ -802,12 +778,6 @@ footer {
     padding-right: 2.308vw;
     padding-left: 6.436vw;
     font-size: 3.59vw;
-  }
-
-  .contact-phone {
-    padding: 1.582vw 2.841vw 1.582vw 9.103vw;
-    font-size: 4.359vw;
-    pointer-events: auto;
   }
 
   .cmn-contactbtn {

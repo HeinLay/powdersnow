@@ -48,21 +48,6 @@ get_header();
         このようなリスクから企業を守り、運営にのみ注力していただけるよう、私たちが全力でサポートいたします。
       </p>
   </div>
-  <div class="about-detail">
-    <div class="left-detail-img">
-      <img src="<?php bloginfo('template_directory'); ?>/assets/images/top/img_about01.png" alt="効果についての見出しが入ります">
-    </div>
-    <div class="right-detail-txt">
-      <h2 class="about-detail-ttl">効果についての<br class="sp">見出しが入ります</h2>
-      <p class="about-detail-txt">テキストテキストテキストテキストテキストテキスト
-        テキストテキストテキストテキストテキストテキストテキスト
-        テキストテキストテキストテキストテキスト
-        テキストテキストテキストテキストテキストテキストテキストテキスト
-        テキストテキストテキストテキストテキストテキスト
-        テキストテキストテキストテキストテキスト
-      テキストテキストテキストテキストテキストテキストテキスト</p>
-    </div>
-  </div>
 </section><!-- ./sec-about -->
 <section class="sec-reason">
   <div class="l-inner">
@@ -77,7 +62,7 @@ get_header();
         </div>
         <h3 class="reason-ttl">SEO対策の豊富な実績</h3>
         <p class="reason-txt">株式会社ロードマップは2012年の創業以来、長きにわたりSEO対策をメ
-          イン事業としており、その実績は累計 <span class="reason-redtxt">○○件以上</span>。そのノウハウをもとに
+          イン事業としており、その実績は累計 <span class="reason-redtxt">200件以上</span>。そのノウハウをもとに
           したMEO対策や逆SEO、風評被害対策に関しても豊富な実績がありま
           す。<br class="pc">
           長くSEO対策に携わり、つねに最新の情報を学び続けているからこそ、
@@ -125,7 +110,7 @@ get_header();
         </div>
         <h3 class="reason-ttl">セキュリティ面のリスクも解決</h3>
         <p class="reason-txt">株式会社ロードマップは大手、官公庁サイトを含む脆弱性診断、サイバ
-          ー攻撃からの復旧であるフォレンジック調査・対応の実績も累計<span class="reason-redtxt">○○件</span>以
+          ー攻撃からの復旧であるフォレンジック調査・対応の実績も累計<span class="reason-redtxt">400件</span>以
           上あります。<br class="pc">
           風評被害対策サービスを提供する企業はほかにもありますが、セキュリ
           ティ面を含めトータルに企業のブランド維持、リスク回避をおこなえる
@@ -133,7 +118,7 @@ get_header();
         </p>
       </div>
     </div>
-    <a href="#" class="detail-btn">詳しくはこちら</a>
+    <a href="<?php echo get_permalink(get_page_by_path('contact')) ?>" class="detail-btn">お問い合わせはこちら</a>
   </div>
 </section><!-- ./sec-reason -->
 <section class="sec-question">
@@ -252,7 +237,7 @@ get_header();
         </div>
       </div>
     </div>
-    <a href="#" class="detail-btn">詳しくはこちら</a>
+    <a href="<?php echo get_permalink(get_page_by_path('service')) ?>" class="detail-btn">詳しくはこちら</a>
   </div>
 </section><!-- ./sec-service -->
 <section class="sec-works">
