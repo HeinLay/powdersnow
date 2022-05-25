@@ -13,7 +13,7 @@ get_header();
 
 <section class="sec-mv service-mv">
     <div class="l-inner">
-        <h2 class="mv-ttl"><span class="mvsub-ttl">SERVICE</span>問題の解決</h2>
+        <h2 class="mv-ttl"><span class="mvsub-ttl">SERVICE</span>サービス</h2>
     </div>
 </section><!-- ./sec-mv -->
 <div class="content">
@@ -25,19 +25,20 @@ get_header();
                     <div class="service-num">01</div>
                     <div class="service-row">
                         <div class="left-service-img">
-                            <img src="<?php bloginfo('template_directory'); ?>/assets/images/top/img_service01.png"
-                                alt="問題の解決">
+                            <img src="<?php bloginfo('template_directory'); ?>/assets/images/service/img_service01.png"
+                                alt="Web/SNSモニタリング">
                         </div>
                         <div class="right-service-txt">
-                            <h4 class="service-item-ttl">問題の解決</h4>
-                            <p>企業イメージに大きく関わる、つぎのような問題をスピード解決いたします。</p>
-                            <p class="service-txt">検索サイトのサジェストにネガティブなキーワードが出るようになってしまった</p>
-                            <p class="service-list">サジェスト削除（Yahoo!・Google・Bing）</p>
-                            <p class="service-list">逆SEO</p>
-                            <p class="service-txt">インターネット掲示板やSNSの投稿などで風評被害を受けた</p>
-                            <p class="service-list">弁護士連携による削除依頼・開示請求</p>
-                            <p class="service-txt">サイバー攻撃を受けてサーバーがダウンした、サイト改ざんを受けてしまった</p>
-                            <p class="service-list">フォレンジック調査＋対応</p>
+                            <h4 class="service-item-ttl">Web/SNSモニタリング</h4>
+                            <p class="service-txt">Web上に存在する数え切れないほどの「声」を整理し、貴社にご報告すべき適切な情報
+                            を抽出します。専門家による目視調査とリスクランクの制定を実施し、報告いたします。
+                            数千から数万件ほどのローデータ（Web上に混在する情報）を収集し、弊社独自のチェ
+                            ックツールと専門家による目視検証を実施し、それらを分類したうえで、定められた規
+                            定に従ってご報告します。リスクランクは高・中・小の3つに分類され、情報を交通整理
+                            します。</p>
+                            <div class="service-detail-btn">
+                                <a href="#" class="detail-btn">詳しくはこちら</a>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -45,20 +46,21 @@ get_header();
                     <div class="service-num">02</div>
                     <div class="service-row">
                         <div class="left-service-img">
-                            <img src="<?php bloginfo('template_directory'); ?>/assets/images/top/img_service02.png"
-                                alt="原因の究明・イメージ回復">
+                            <img src="<?php bloginfo('template_directory'); ?>/assets/images/service/img_service02.png"
+                                alt="風評被害対策">
                         </div>
                         <div class="right-service-txt">
-                            <h4 class="service-item-ttl">原因の究明・イメージ回復</h4>
-                            <p>風評被害やトラブル発生の原因となったのはなにか、どこが炎上の発生源かを調査し、
-                                イメージ回復のためにもっとも最適な施策を検討、実施します。
+                            <h4 class="service-item-ttl">風評被害対策</h4>
+                            <p class="service-txt">会社名やサービス名、個人名などの「指定キーワード」をYahoo!やGoogleで検索した
+                            ときに表示されるネガティブなサイトを見えにくくするサービスです。検索結果にネガ
+                            ティブなキーワードが表示されてしまうと、それだけでユーザーは悪い印象を受け、ビ
+                            ジネスに大きな悪影響を与えかねません。<br>
+                            （ネガティブなキーワードの例：「社名 不祥事」「社名 ブラック」「社名 裁判」「社
+                            名 反社」など）
                             </p>
-                            <p class="service-txt">企業やサイトの評判を底上げする施策</p>
-                            <p class="service-list">SEO対策（コンテンツマーケティング）</p>
-                            <p class="service-list">MEO対策</p>
-                            <p class="service-list">サジェスト最適化戦略支援</p>
-                            <p class="service-txt">セキュリティ面のリスク調査</p>
-                            <p class="service-list">ホームページ健康診断</p>
+                            <div class="service-detail-btn">
+                                <a href="#" class="detail-btn">詳しくはこちら</a>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -66,41 +68,62 @@ get_header();
                     <div class="service-num">03</div>
                     <div class="service-row">
                         <div class="left-service-img">
-                            <img src="<?php bloginfo('template_directory'); ?>/assets/images/top/img_service03.png"
-                                alt="価値の維持">
+                            <img src="<?php bloginfo('template_directory'); ?>/assets/images/service/img_service03.png"
+                                alt="セキュリティ診断・対策">
                         </div>
                         <div class="right-service-txt">
-                            <h4 class="service-item-ttl">価値の維持</h4>
-                            <p>風評被害、サイバー攻撃被害を受けてしまった企業さまに対し、
-                                つぎのような施策で価値の維持までトータルでサポートいたします。</p>
-                            <p class="service-list">セキュリティ運用</p>
-                            <p class="service-list">保守管理（月一度の検査ほか）</p>
-                            <p class="service-list">バックグラウンド調査</p>
+                            <h4 class="service-item-ttl">セキュリティ診断・対策</h4>
+                            <p class="service-txt">セキュリティ対策の第一歩という位置づけで、対象となるホームページの脆弱性を認識
+                            していただくためのサービスです。診断結果は、セキュリティ対策方針の検討材料とし
+                            てのご活用を想定しています。<br>
+                            自社ホームページがサイバー攻撃を受け、改ざんなどされれば情報漏えいや、利用者に
+                            ウイルスをばら撒く加害者になり兼ねません。このような被害を防ぐのに有効なのが、
+                            脆弱性診断です。</p>
+                            <div class="service-detail-btn">
+                                <a href="#" class="detail-btn">詳しくはこちら</a>
+                            </div>
                         </div>
                     </div>
                 </div>
-                <h3 class="service-ttl">リスク対策を多角的にサポート</h3>
                 <div class="service-item">
+                    <div class="service-num">04</div>
                     <div class="service-row">
                         <div class="left-service-img">
-                            <img src="<?php bloginfo('template_directory'); ?>/assets/images/top/img_cyber_check01.png"
-                                alt="サイバーチェック">
+                            <img src="<?php bloginfo('template_directory'); ?>/assets/images/service/img_service04.png"
+                                alt="フォレンジック調査・対応">
                         </div>
                         <div class="right-service-txt">
-                            <h4 class="service-item-ttl">サイバーチェック</h4>
-                            <p>
-                                取引先や採用の応募者の素性を調査し、取引・採用前に素行に問題のない
-                                人物であるか確認しておける、現代のネット信用調査サービスです。</p>
-                            <p class="service-list">反社チェック</p>
-                            <p>
-                                ネット記事情報をもとに犯罪・不祥事・反社関連の情報を収集します。
-                                採用・取引の最低限のリスク管理に。</p>
-                            <p class="service-list">ネットチェック</p>
-                            <p>SNS・掲示板・ブログなどから会社・人に関する情報を収集。
-                                企業体質・人物健全度のリスクを可視化します。</p>
-                            <p class="service-list">TRUST CHECK</p>
-                            <p>匿名アカウント、ダークWebすべてのサイバー空間を網羅ネットの
-                                深部まで調べあげる、究極のリスク対策支援ツールです。</p>
+                            <h4 class="service-item-ttl">フォレンジック調査・対応</h4>
+                            <p class="service-txt">
+                            ホームページがサイバー攻撃により改ざんされた、サーバーがダウンした、といったセ
+                            キュリティ事故時にセキュリティエンジニアが攻撃箇所の修復、セキュリティ対策措置
+                            など緊急対応を実施するサービスです。
+                            どのように侵入されたのか、情報流出したのか、していないのか、まだ攻撃は続いてい
+                            るのか、早急に調査・対策します。</p>
+                            <div class="service-detail-btn">
+                                <a href="#" class="detail-btn">詳しくはこちら</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="service-item">
+                    <div class="service-num">05</div>
+                    <div class="service-row">
+                        <div class="left-service-img">
+                            <img src="<?php bloginfo('template_directory'); ?>/assets/images/service/img_service05.png"
+                                alt="サジェスト汚染対策">
+                        </div>
+                        <div class="right-service-txt">
+                            <h4 class="service-item-ttl">サジェスト汚染対策</h4>
+                            <p class="service-txt">
+                            Yahoo!やGoogleにおける関連キーワード・サジェストに、誹謗中傷などの汚染テキス
+                            トが表示されてしまう場合、それらを表示されないように対策を実施するサービスで
+                            す。<br>
+                            ネガティブな関連キーワードが表示されており、事実と異なることが表示されることは
+                            しばしば散見されます。</p>
+                            <div class="service-detail-btn">
+                                <a href="#" class="detail-btn">詳しくはこちら</a>
+                            </div>
                         </div>
                     </div>
                 </div>

@@ -20,7 +20,7 @@
     <title>CYBER VALUE</title>
     <meta name="description" content="">
     <meta name="keywords" content="">
-    <link rel="shortcut icon" href="<?php bloginfo('template_directory'); ?>assets/images/common/favicon.ico" />
+    <link rel="shortcut icon" href="<?php bloginfo('template_directory'); ?>/assets/images/common/favicon.ico" />
     <link rel="stylesheet" type="text/css" href="<?php bloginfo("template_directory"); ?>/assets/css/import.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>

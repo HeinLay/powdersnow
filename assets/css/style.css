@@ -283,15 +283,19 @@
 
 .sec-question .question-blk {
   display: flex;
-  justify-content: space-between;
   padding: 60px 0;
 }
 
 .sec-question .question-col {
-  width: 340px;
-  padding: 73px 84px 34px;
+  width: 380px;
+  padding: 5.6% 3.8%;
   background-color: rgba(204, 212, 218, 0.70);
   border-radius: 50%;
+  margin-right: 30px;
+}
+
+.sec-question .question-col:last-child {
+  margin-right: 0;
 }
 
 .sec-question .question-col .question-col-img {
@@ -319,7 +323,8 @@
 
 .sec-service .service-ttl {
   position: relative;
-  padding: 65px 0;
+  padding-bottom: 37px;
+  margin-bottom: 30px;
   color: #1d4366;
   font-size: 27px;
   font-weight: 700;
@@ -330,22 +335,17 @@
   display: inline-block;
   position: absolute;
   top: 68%;
-  left: 29.4%;
-  width: 41%;
+  left: 50%;
+  width: 550px;
   content: '';
-  transform: translateY(-50%);
+  transform: translateX(-50%);
   border-bottom: 1px solid #1d4366;
-}
-
-.sec-service .service-ttl:nth-of-type(2)::before {
-  left: 34.8%;
-  width: 30.4%;
 }
 
 .sec-service .service-item {
   position: relative;
   margin: 0 auto 50px;
-  padding: 60px;
+  padding: 64px 60px 53px;
   border: 1px solid #1d4366;
   background-color: #ffffff;
   max-width: 1200px;
@@ -393,10 +393,6 @@
   border-color: transparent #1d4366 transparent transparent;
 }
 
-.sec-service .service-item:nth-of-type(4n)::after {
-  display: none;
-}
-
 .sec-service .service-item .service-num {
   position: absolute;
   top: 0.7%;
@@ -417,7 +413,7 @@
   display: flex;
   align-items: center;
   width: 35.5%;
-  margin-right: 100px;
+  margin-right: 50px;
   max-width: 382px;
 }
 
@@ -429,40 +425,33 @@
 .sec-service .service-item .right-service-txt {
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: flex-start;
   width: 52.5%;
 }
 
 .sec-service .service-item .right-service-txt .service-txt {
-  padding: 46px 0 0;
+  padding: 38px 0 0;
+  line-height: 2;
 }
 
 .sec-service .service-item .service-item-ttl {
-  padding-bottom: 41px;
   color: #1d4366;
   font-size: 25px;
   font-weight: 700;
+  padding-top: 12px;
 }
 
-.sec-service .service-item .right-service-txt .service-list,
-#service-detail-page .service-detail-content .right-service-detail .service-list {
-  line-height: 2.1;
-  color: #df543a;
+.sec-service .service-item .service-detail-btn {
+  text-align: right;
+  margin-right: -73px;
+  margin-top: 24px;
 }
 
-.sec-service .service-item .right-service-txt .service-list::before,
-#service-detail-page .service-detail-content .right-service-detail .service-list::before {
-  display: inline-block;
-  padding-right: 3px;
-  content: '';
-  border-color: transparent #df543a;
-  border-style: solid;
-  border-width: 7px 0 6px 11px;
-}
-
-.sec-service .detail-btn {
-  margin: 0 auto;
+.sec-service .service-item .service-detail-btn .detail-btn {
   background-color: #df543a;
+  width: inherit;
+  padding: 12px 30px;
+  display: inline-block;
 }
 
 /* sec-work
@@ -736,12 +725,8 @@
 /* sec-service
 ------------------------------------------------------------- */
 #service-page .sec-service {
-  padding: 50px 0 24px;
+  padding: 90px 0;
   background: none;
-}
-
-#service-page .sec-service .service-ttl {
-  padding: 63px 0;
 }
 
 #service-page .sec-service .service-ttl::before {
@@ -775,8 +760,9 @@
 /* sec-mv
 ------------------------------------------------------------- */
 .sec-mv.service-web-mv {
-  background-image: linear-gradient(rgba(29, 67, 102, 0.80), rgba(29, 67, 102, 0.80)), url('../images/service/img_service_mv.png');
+  background-image: linear-gradient(rgba(29, 67, 102, 0.80), rgba(29, 67, 102, 0.80)), url('../images/service-detail/img_service_detail_web_mv.png');
 }
+
 /* tabs-service-nav
 ------------------------------------------------------------- */
 #service-detail-page .tabs-service-nav {
@@ -785,6 +771,7 @@
 
 #service-detail-page .tabs-service-nav .tabs-service {
   display: flex;
+  justify-content: center;
   align-items: center;
   padding: 0;
 }
@@ -841,15 +828,15 @@
 
 /* --Web/SNS-- */
 #service-detail-page .service-detail-content .factors-row {
-  width: 1200px;
   display: flex;
+  width: 1200px;
   margin: 0 auto;
   padding: 40px 0 10px;
 }
 
 #service-detail-page .service-detail-content .factors-row .factors-item:nth-child(2n) {
   margin-left: 100px;
-} 
+}
 
 #service-detail-page .service-detail-content .factors-row .factors-item {
   width: 50%;
@@ -893,28 +880,28 @@
   padding-top: 40px;
 }
 
-#service-detail-page .service-detail-content .service-detail-row .reason-chosen-list dt {
-  padding-bottom: 20px;
+#service-detail-page .service-detail-content .service-detail-row .reason-chosen-list .detail-list-txt {
+  padding: 0 0 20px;
 }
 
 #service-detail-page .service-detail-content .service-detail-row .reason-chosen-list dd {
   display: list-item;
   list-style: upper-alpha;
-  margin-left: 22px;
   line-height: 1.9;
+  margin-left: 22px;
 }
 
 #service-detail-page .service-detail-content .service-detail-row .roadmap-survey {
   width: 1000px;
   margin: 60px auto;
-  border: 1px solid #1d4366;
   padding: 0 30px 60px;
+  border: 1px solid #1d4366;
 }
 
 #service-detail-page .service-detail-content .service-detail-row .roadmap-survey legend {
-  text-align: center;
-  font-size: 20px;
   color: #1d4366;
+  font-size: 20px;
+  text-align: center;
 }
 
 #service-detail-page .service-detail-content .service-detail-row .roadmap-survey .detail-list-txt {
@@ -928,16 +915,107 @@
 }
 
 #service-detail-page .service-detail-content .service-detail-row .media-monitoring {
+  padding: 20px 0;
   color: #1d4366;
   text-decoration: underline;
-  padding: 20px 0;
 }
 
 #service-detail-page .service-detail-content .service-detail-row .emergency-contact-img {
-  max-width: 1103px;
-  padding: 30px 0;
   margin: 0 auto;
+  padding: 30px 0;
+  max-width: 1103px;
   image-rendering: -webkit-optimize-contrast;
+}
+
+/* --Rumors-- */
+.sec-mv.service-rumors-mv {
+  background-image: linear-gradient(rgba(29, 67, 102, 0.80), rgba(29, 67, 102, 0.80)), url('../images/service-detail/img_service_detail_rumors_mv.png');
+}
+
+#service-detail-page.detail-rumors-page .tabs-service-nav .tabs-service li {
+  width: 50%;
+}
+
+#service-detail-page .service-detail-content .service-detail-row .effect-txt {
+  width: 169px;
+  margin: 51px auto 41px;
+  color: #df543a;
+  font-size: 18px;
+  font-weight: 700;
+  text-align: center;
+  border-bottom: 1px solid #df543a;
+}
+
+#service-detail-page .service-detail-content .service-detail-row .effects-blk {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 750px;
+  margin: 0 auto;
+}
+
+#service-detail-page .service-detail-content .service-detail-row .effects-blk .effect-item {
+  display: inline-block;
+  width: 33.33%;
+  color: #1d4366;
+  font-weight: 700;
+  text-align: center;
+}
+
+#service-detail-page .service-detail-content .service-detail-row .effects-blk .effect-item:nth-child(1),
+#service-detail-page .service-detail-content .service-detail-row .effects-blk .effect-item:nth-child(2),
+#service-detail-page .service-detail-content .service-detail-row .effects-blk .effect-item:nth-child(3) {
+  margin-bottom: 45px;
+}
+
+#service-detail-page .service-detail-content .service-detail-row .effects-blk .effect-item .effect-icon {
+  margin: 0 auto;
+  padding-bottom: 15px;
+  max-width: 88px;
+}
+
+#service-detail-page .service-detail-content .service-detail-row .service-security-blk {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 35px;
+}
+
+#service-detail-page .service-detail-content .service-detail-row .service-security-blk .service-security {
+  width: 403px;
+  padding: 30px 20px;
+  background-color: #f5f2ef;
+}
+
+#service-detail-page .service-detail-content .service-detail-row .service-security-blk .service-security h3 {
+  margin: 0 auto;
+  padding-bottom: 25px;
+  color: #1d4366;
+  font-size: 17px;
+  font-weight: 700;
+  text-align: center;
+}
+
+#service-detail-page .service-detail-content .service-detail-row .service-security-blk .service-security p {
+  line-height: 2;
+  font-size: 15px;
+}
+
+#service-detail-page.detail-rumors-page .service-detail-content .detail-list-txt {
+  padding: 45px 0 12px;
+}
+
+#service-detail-page.detail-rumors-page .service-detail-content .search-result-img {
+  margin: 0 auto;
+  padding: 50px 0;
+  max-width: 864px;
+}
+
+#service-detail-page.detail-rumors-page .service-detail-content .service-detail-row .roadmap-survey legend {
+  padding: 0 43px;
+}
+
+#service-detail-page.detail-rumors-page .service-detail-content {
+  padding: 120px 30px 60px;
 }
 
 /* Works Page */
@@ -1546,8 +1624,8 @@
   }
 
   .sec-question .question-col {
-    width: 26.419vw;
-    padding: 4.98vw;
+    width: 28.645vw;
+    padding: 2.887vw 3.435vw 2.032vw;
   }
 
   .sec-question .question-col .question-col-img {
@@ -1561,87 +1639,79 @@
 
   /* sec-service
 ------------------------------------------------------------- */
-  .sec-service {
-    padding: 6.29vw 0;
-  }
+.sec-service {
+  padding: 6.29vw 0;
+}
 
-  .sec-service .service-ttl {
-    padding: 5.081vw 0;
-    font-size: 2.177vw;
-  }
+.sec-service .service-ttl {
+  padding-bottom: 2.984vw;
+  margin-bottom: 2.419vw;
+  font-size: 2.177vw;
+}
 
-  .sec-service .service-ttl::before {
-    left: 25%;
-    width: 50%;
-    border-bottom: 0.081vw solid #1d4366;
-  }
+.sec-service .service-ttl::before {
+  border-bottom: 0.081vw solid #1d4366;
+  width: 44.355vw;
+}
 
-  .sec-service .service-ttl:nth-of-type(2)::before {
-    left: 31.5%;
-    width: 37.4%;
-  }
+.sec-service .service-item {
+  margin: 0 auto 4.032vw;
+  padding: 5.161vw 4.839vw 4.274vw;
+  border: 0.081vw solid #1d4366;
+  max-width: 96.774vw;
+}
 
-  .sec-service .service-item {
-    margin: 0 auto 4.032vw;
-    padding: 4.839vw;
-    border: 0.081vw solid #1d4366;
-    max-width: 96.774vw;
-  }
+.sec-service .service-item:last-of-type {
+  margin: 0 auto 5.806vw;
+}
 
-  .sec-service .service-item:last-of-type {
-    margin: 0 auto 5.806vw;
-  }
+.sec-service .service-item:nth-of-type(3) .left-service-img {
+  padding-top: 0.565vw;
+}
 
-  .sec-service .service-item:nth-of-type(3) .left-service-img {
-    padding-top: 0.565vw;
-  }
+.sec-service .service-item:nth-of-type(4) .right-service-txt .service-list {
+  padding-top: 3.669vw;
+}
 
-  .sec-service .service-item:nth-of-type(4) .right-service-txt .service-list {
-    padding-top: 3.669vw;
-  }
+.sec-service .service-item::after,
+.sec-service .service-item:nth-of-type(2n)::after {
+  border-width: 0 0 10.565vw 10.565vw;
+}
 
-  .sec-service .service-item::after,
-  .sec-service .service-item:nth-of-type(2n)::after {
-    border-width: 0 0 10.565vw 10.565vw;
-  }
+.sec-service .service-item:nth-of-type(2n)::after {
+  border-width: 0 10.565vw 10.565vw 0;
+}
 
-  .sec-service .service-item:nth-of-type(2n)::after {
-    border-width: 0 10.565vw 10.565vw 0;
-  }
+.sec-service .service-item .service-num {
+  font-size: 3.226vw;
+}
 
-  .sec-service .service-item .service-num {
-    font-size: 3.226vw;
-  }
+.sec-service .service-item .left-service-img {
+  margin-right: 4.032vw;
+  max-width: 30.806vw;
+}
 
-  .sec-service .service-item .left-service-img {
-    margin-right: 8.065vw;
-    max-width: 30.806vw;
-  }
+.sec-service .service-item:nth-of-type(2n) .left-service-img {
+  margin-left: 10.484vw;
+}
 
-  .sec-service .service-item:nth-of-type(2n) .left-service-img {
-    margin-left: 10.484vw;
-  }
+.sec-service .service-item .right-service-txt .service-txt {
+  padding: 3.065vw 0 0;
+}
 
-  .sec-service .service-item .right-service-txt .service-txt {
-    padding: 3.71vw 0 0;
-  }
+.sec-service .service-item .service-item-ttl {
+  font-size: 2.016vw;
+  padding-top: 0.968vw;
+}
 
-  .sec-service .service-item .service-item-ttl {
-    padding-bottom: 3.306vw;
-    font-size: 2.016vw;
-  }
+.sec-service .service-item .service-detail-btn {
+  margin-right: -5.887vw;
+  margin-top: 1.935vw;
+}
 
-  .sec-service .service-item .right-service-txt .service-list,
-  #service-detail-page .service-detail-content .right-service-detail .service-list {
-    margin-left: 0.161vw;
-  }
-
-  .sec-service .service-item .right-service-txt .service-list::before,
-  #service-detail-page .service-detail-content .right-service-detail .service-list::before {
-    padding-right: 0.242vw;
-    font-size: 1.855vw;
-    border-width: 0.565vw 0 0.484vw 0.887vw;
-  }
+.sec-service .service-item .service-detail-btn .detail-btn {
+  padding: 0.968vw 2.419vw;
+}
 
   /* sec-work
 ------------------------------------------------------------- */
@@ -1788,11 +1858,7 @@
 ------------------------------------------------------------- */
 
   #service-page .sec-service {
-    padding: 4.032vw 0 1.935vw;
-  }
-
-  #service-page .sec-service .service-ttl {
-    padding: 5.081vw 0;
+    padding: 7.258vw 0;
   }
 
   /* sec-works
@@ -1838,46 +1904,46 @@
   #service-detail-page .service-detail-content .service-detail-row:nth-child(2n) {
     margin: 7.258vw 0;
   }
-  
+
   #service-detail-page .service-detail-content .service-detail-row .service-detail-ttl {
     font-size: 2.016vw;
     text-indent: 0.726vw;
     border-bottom: 0.081vw solid #1d4366;
   }
-  
+
   #service-detail-page .service-detail-content .service-detail-row .service-txt {
     padding-top: 3.226vw;
   }
-  
+
   /* --Web/SNS-- */
   #service-detail-page .service-detail-content .factors-row {
     width: 100%;
     padding: 3.226vw 0 0.806vw;
   }
-  
+
   #service-detail-page .service-detail-content .factors-row .factors-item:nth-child(2n) {
     margin-left: 5.065vw;
-  } 
-  
+  }
+
   #service-detail-page .service-detail-content .factors-row .factors-item {
     padding: 2.177vw 2.419vw;
     border: 0.081vw solid #df543a;
   }
-  
+
   #service-detail-page .service-detail-content .factors-row .factors-item .circle-row {
     padding: 2.258vw 9.516vw;
   }
-  
+
   #service-detail-page .service-detail-content .factors-row .factors-item .circle-txt {
     width: 8.629vw;
     height: 8.629vw;
     font-size: 1.452vw;
   }
-  
+
   #service-detail-page .service-detail-content .factors-row .factors-item .circle-txt:nth-child(2n) {
     margin-left: 2.823vw;
   }
-  
+
   #service-detail-page .service-detail-content .detail-list-txt {
     font-size: 1.452vw;
   }
@@ -1885,35 +1951,92 @@
   #service-detail-page .service-detail-content .service-detail-row .reason-chosen-list {
     padding-top: 3.226vw;
   }
-  
+
   #service-detail-page .service-detail-content .service-detail-row .reason-chosen-list dt {
     padding-bottom: 1.613vw;
   }
-  
+
   #service-detail-page .service-detail-content .service-detail-row .reason-chosen-list dd {
     margin-left: 1.774vw;
   }
-  
+
   #service-detail-page .service-detail-content .service-detail-row .roadmap-survey {
     width: 80.645vw;
     margin: 4.839vw auto;
-    border: 0.081vw solid #1d4366;
     padding: 0 2.419vw 4.839vw;
+    border: 0.081vw solid #1d4366;
   }
-  
+
   #service-detail-page .service-detail-content .service-detail-row .roadmap-survey legend {
     font-size: 1.613vw;
   }
-  
+
   #service-detail-page .service-detail-content .service-detail-row .media-monitoring {
     padding: 1.613vw 0;
   }
-  
+
   #service-detail-page .service-detail-content .service-detail-row .emergency-contact-img {
-    max-width: 88.952vw;
     padding: 2.419vw 0;
+    max-width: 88.952vw;
   }
 
+  /* --Rumors-- */
+  #service-detail-page .service-detail-content .service-detail-row .effect-txt {
+    width: 13.629vw;
+    margin: 4.113vw auto 3.306vw;
+    font-size: 1.452vw;
+    border-bottom: 0.081vw solid #df543a;
+  }
+
+  #service-detail-page .service-detail-content .service-detail-row .effects-blk {
+    width: 60.484vw;
+  }
+
+  #service-detail-page .service-detail-content .service-detail-row .effects-blk .effect-item:nth-child(1),
+  #service-detail-page .service-detail-content .service-detail-row .effects-blk .effect-item:nth-child(2),
+  #service-detail-page .service-detail-content .service-detail-row .effects-blk .effect-item:nth-child(3) {
+    margin-bottom: 3.629vw;
+  }
+
+  #service-detail-page .service-detail-content .service-detail-row .effects-blk .effect-item .effect-icon {
+    padding-bottom: 1.21vw;
+    max-width: 7.097vw;
+  }
+
+  #service-detail-page .service-detail-content .service-detail-row .service-security-blk {
+    margin-top: 2.823vw;
+  }
+
+  #service-detail-page .service-detail-content .service-detail-row .service-security-blk .service-security {
+    width: 32.5vw;
+    padding: 2.419vw 1.613vw;
+  }
+
+  #service-detail-page .service-detail-content .service-detail-row .service-security-blk .service-security h3 {
+    padding-bottom: 2.016vw;
+    font-size: 1.371vw;
+  }
+
+  #service-detail-page .service-detail-content .service-detail-row .service-security-blk .service-security p {
+    font-size: 1.21vw;
+  }
+
+  #service-detail-page.detail-rumors-page .service-detail-content .detail-list-txt {
+    padding: 3.629vw 0 0.968vw;
+  }
+
+  #service-detail-page.detail-rumors-page .service-detail-content .search-result-img {
+    padding: 4.032vw 0;
+    max-width: 69.677vw;
+  }
+
+  #service-detail-page.detail-rumors-page .service-detail-content .service-detail-row .roadmap-survey legend {
+    padding: 0 3.468vw;
+  }
+
+  #service-detail-page.detail-rumors-page .service-detail-content {
+    padding: 9.677vw 2.419vw 4.839vw;
+  }
 
   /* Works Page */
   #works-page .sec-works {
@@ -2200,9 +2323,9 @@
 
   .top-mv .mv-btn {
     position: absolute;
-    align-items: center;
-    top: 83.5%;
+    top: 81.3%;
     bottom: 0;
+    align-items: center;
     width: 100%;
     padding: 20px;
     background: url('../images/top/img_mv_btn_bg.png');
@@ -2242,7 +2365,7 @@
   /* detail-btn
 ------------------------------------------------------------- */
   .detail-btn {
-    width: 41.026vw;
+    width: 43.726vw;
     padding: 2.821vw;
     font-size: 3.59vw;
     border-radius: 7.692vw;
@@ -2251,7 +2374,7 @@
   /* sec-about
 ------------------------------------------------------------- */
   .sec-about {
-    padding: 15.769vw 0;
+    padding: 15.769vw 5.128vw;
   }
 
   .sec-about .about-blk {
@@ -2379,9 +2502,10 @@
   }
 
   .sec-question .question-col {
-    width: 68.231vw;
+    width: 100%;
     margin-bottom: 10.256vw;
-    padding: 13.418vw;
+    padding: 18.418vw 13vw;
+    margin-right: 0;
   }
 
   .sec-question .question-col .question-col-img {
@@ -2400,21 +2524,15 @@
   }
 
   .sec-service .service-ttl {
-    padding: 12.454vw 0 12.1vw;
+    padding-bottom: 9.487vw;
+    margin-bottom: 7.692vw;
     font-size: 5.641vw;
   }
 
   .sec-service .service-ttl::before {
     top: 76%;
-    left: 3%;
     width: 94%;
     border-bottom: 0.256vw solid #1d4366;
-  }
-
-  .sec-service .service-ttl:nth-of-type(2)::before {
-    top: 70%;
-    left: 3.1%;
-    width: 94%;
   }
 
   .sec-service .service-item {
@@ -2426,10 +2544,6 @@
 
   .sec-service .service-item .right-service-txt {
     line-height: 1.9;
-  }
-
-  .sec-service .service-item:nth-of-type(2) .right-service-txt .service-txt {
-    padding: 8.126vw 0 0;
   }
 
   .sec-service .service-item:last-of-type {
@@ -2482,25 +2596,32 @@
     width: 100%;
   }
 
+  .sec-service .service-item .right-service-txt .service-txt {
+    padding: 3.744vw 0 0;
+  }
+
   .sec-service .service-item .right-service-txt p {
     line-height: 2;
   }
 
   .sec-service .service-item .service-item-ttl {
-    padding: 4.53vw 0;
     font-size: 5.128vw;
     text-align: center;
+    padding-top: 6.077vw;
   }
 
   .sec-service .service-item:nth-of-type(4) .right-service-txt .service-list {
     padding-top: 7.667vw;
   }
 
-  .sec-service .service-item .right-service-txt .service-list::before,
-  #service-detail-page .service-detail-content .right-service-detail .service-list::before {
-    padding-right: 0.769vw;
-    font-size: 4.697vw;
-    border-width: 1.795vw 0 1.538vw 2.821vw;
+  .sec-service .service-item .service-detail-btn {
+    text-align: center;
+    margin-right: 0;
+    margin-top: 6.154vw;
+  }
+  
+  .sec-service .service-item .service-detail-btn .detail-btn {
+    padding: 3.077vw 7.692vw;
   }
 
   /* sec-work
@@ -2683,10 +2804,6 @@
     padding: 12.821vw 0 6.154vw;
   }
 
-  #service-page .sec-service .service-ttl {
-    padding: 7.154vw 0 10.154vw;
-  }
-
   #service-page .sec-service .service-ttl::before {
     top: 71%;
   }
@@ -2750,52 +2867,52 @@
   }
 
   #service-detail-page .service-detail-content .service-detail-row:nth-child(2n) {
-    margin: 23.077vw 0;
+    margin: 14.077vw 0;
   }
-  
+
   #service-detail-page .service-detail-content .service-detail-row .service-detail-ttl {
     font-size: 5.128vw;
     text-indent: 2.308vw;
     border-bottom: 0.256vw solid #1d4366;
   }
-  
+
   #service-detail-page .service-detail-content .service-detail-row .service-txt {
-    padding-top: 10.256vw;
+    padding-top: 8.256vw;
   }
-  
+
   /* --Web/SNS-- */
   #service-detail-page .service-detail-content .factors-row {
+    flex-direction: column;
     width: 100%;
     padding: 10.256vw 0 2.564vw;
-    flex-direction: column;
   }
-  
+
   #service-detail-page .service-detail-content .factors-row .factors-item:nth-child(2n) {
-    margin-left: 0;
     margin-top: 11.641vw;
-  } 
-  
+    margin-left: 0;
+  }
+
   #service-detail-page .service-detail-content .factors-row .factors-item {
     width: 100%;
     padding: 6.923vw 7.692vw;
     border: 0.256vw solid #df543a;
   }
-  
+
   #service-detail-page .service-detail-content .factors-row .factors-item .circle-row {
-    padding: 7.179vw 0;
     justify-content: space-around;
+    padding: 7.179vw 0;
   }
-  
+
   #service-detail-page .service-detail-content .factors-row .factors-item .circle-txt {
     width: 24.436vw;
     height: 24.436vw;
     font-size: 4.103vw;
   }
-  
+
   #service-detail-page .service-detail-content .factors-row .factors-item .circle-txt:nth-child(2n) {
     margin-left: 0;
   }
-  
+
   #service-detail-page .service-detail-content .detail-list-txt {
     font-size: 4.103vw;
   }
@@ -2803,22 +2920,22 @@
   #service-detail-page .service-detail-content .service-detail-row .reason-chosen-list {
     padding-top: 10.256vw;
   }
-  
+
   #service-detail-page .service-detail-content .service-detail-row .reason-chosen-list dt {
     padding-bottom: 5.128vw;
   }
-  
+
   #service-detail-page .service-detail-content .service-detail-row .reason-chosen-list dd {
     margin-left: 5.641vw;
   }
-  
+
   #service-detail-page .service-detail-content .service-detail-row .roadmap-survey {
     width: 100%;
     margin: 13.385vw auto 4.587vw;
-    border: 0.256vw solid #1d4366;
     padding: 0 7.692vw 15.385vw;
+    border: 0.256vw solid #1d4366;
   }
-  
+
   #service-detail-page .service-detail-content .service-detail-row .roadmap-survey legend {
     font-size: 4.615vw;
   }
@@ -2826,10 +2943,79 @@
   #service-detail-page .service-detail-content .service-detail-row .media-monitoring {
     padding: 5.128vw 0;
   }
-  
+
   #service-detail-page .service-detail-content .service-detail-row .emergency-contact-img {
-    max-width: 100%;
     padding: 7.692vw 0;
+    max-width: 100%;
+  }
+
+  /* --Rumors-- */
+
+  #service-detail-page.detail-rumors-page .tabs-service-nav .tabs-service li {
+    width: 100%;
+  }
+
+  #service-detail-page .service-detail-content .service-detail-row .effect-txt {
+    width: 43.333vw;
+    margin: 13.077vw auto 10.513vw;
+    font-size: 4.103vw;
+    border-bottom: 0.256vw solid #df543a;
+  }
+
+  #service-detail-page .service-detail-content .service-detail-row .effects-blk {
+    width: 100%;
+  }
+
+  #service-detail-page .service-detail-content .service-detail-row .effects-blk .effect-item {
+    width: 25.33%;
+  }
+
+  #service-detail-page .service-detail-content .service-detail-row .effects-blk .effect-item:nth-child(1),
+  #service-detail-page .service-detail-content .service-detail-row .effects-blk .effect-item:nth-child(2),
+  #service-detail-page .service-detail-content .service-detail-row .effects-blk .effect-item:nth-child(3) {
+    margin-bottom: 11.538vw;
+  }
+
+  #service-detail-page .service-detail-content .service-detail-row .effects-blk .effect-item .effect-icon {
+    padding-bottom: 3.846vw;
+    max-width: 16.564vw;
+  }
+
+  #service-detail-page .service-detail-content .service-detail-row .service-security-blk {
+    flex-direction: column;
+    margin-top: 8.974vw;
+    gap: 7.692vw;
+  }
+
+  #service-detail-page .service-detail-content .service-detail-row .service-security-blk .service-security {
+    width: 100%;
+    padding: 7.692vw 5.128vw;
+  }
+
+  #service-detail-page .service-detail-content .service-detail-row .service-security-blk .service-security h3 {
+    padding-bottom: 6.41vw;
+    font-size: 3.846vw;
+  }
+
+  #service-detail-page .service-detail-content .service-detail-row .service-security-blk .service-security p {
+    font-size: 3.333vw;
+  }
+
+  #service-detail-page.detail-rumors-page .service-detail-content .detail-list-txt {
+    padding: 11.538vw 0 3.077vw;
+  }
+
+  #service-detail-page.detail-rumors-page .service-detail-content .search-result-img {
+    padding: 12.821vw 0;
+    max-width: 100%;
+  }
+
+  #service-detail-page.detail-rumors-page .service-detail-content .service-detail-row .roadmap-survey legend {
+    padding: 0 11.026vw;
+  }
+
+  #service-detail-page.detail-rumors-page .service-detail-content {
+    padding: 20.513vw 29.999px 10.256vw;
   }
 
 
@@ -3080,8 +3266,9 @@
   }
 
   #contact-page .sec-contact-form .agree-checkbox input[type=checkbox] {
-    width: 8%;
-    transform: scale(1.5);
+    width: 6%;
+    transform: scale(1.2);
+    vertical-align: bottom;
   }
 
   #contact-page .sec-contact-form .agree-checkbox .wpcf7-list-item {
