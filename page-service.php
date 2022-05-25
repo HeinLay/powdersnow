@@ -37,7 +37,7 @@ get_header();
                             定に従ってご報告します。リスクランクは高・中・小の3つに分類され、情報を交通整理
                             します。</p>
                             <div class="service-detail-btn">
-                                <a href="#" class="detail-btn">詳しくはこちら</a>
+                                <a href="<?php bloginfo('url'); ?>/web/" class="detail-btn">詳しくはこちら</a>
                             </div>
                         </div>
                     </div>
@@ -59,7 +59,7 @@ get_header();
                             名 反社」など）
                             </p>
                             <div class="service-detail-btn">
-                                <a href="#" class="detail-btn">詳しくはこちら</a>
+                                <a href="<?php bloginfo('url'); ?>/rumors/" class="detail-btn">詳しくはこちら</a>
                             </div>
                         </div>
                     </div>
@@ -80,7 +80,7 @@ get_header();
                             ウイルスをばら撒く加害者になり兼ねません。このような被害を防ぐのに有効なのが、
                             脆弱性診断です。</p>
                             <div class="service-detail-btn">
-                                <a href="#" class="detail-btn">詳しくはこちら</a>
+                                <a href="<?php bloginfo('url'); ?>/security/" class="detail-btn">詳しくはこちら</a>
                             </div>
                         </div>
                     </div>
@@ -101,7 +101,7 @@ get_header();
                             どのように侵入されたのか、情報流出したのか、していないのか、まだ攻撃は続いてい
                             るのか、早急に調査・対策します。</p>
                             <div class="service-detail-btn">
-                                <a href="#" class="detail-btn">詳しくはこちら</a>
+                                <a href="<?php bloginfo('url'); ?>/forensic/" class="detail-btn">詳しくはこちら</a>
                             </div>
                         </div>
                     </div>
@@ -122,7 +122,7 @@ get_header();
                             ネガティブな関連キーワードが表示されており、事実と異なることが表示されることは
                             しばしば散見されます。</p>
                             <div class="service-detail-btn">
-                                <a href="#" class="detail-btn">詳しくはこちら</a>
+                                <a href="<?php bloginfo('url'); ?>/suggest/" class="detail-btn">詳しくはこちら</a>
                             </div>
                         </div>
                     </div>
