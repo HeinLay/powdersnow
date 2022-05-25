@@ -13,7 +13,7 @@ get_header();
 
 <section class="sec-mv service-security-mv">
   <div class="l-inner">
-    <h2 class="mv-ttl"><span class="mvsub-ttl">SERVICE</span>風評被害対策</h2>
+    <h2 class="mv-ttl"><span class="mvsub-ttl">SERVICE</span>セキュリティ診断・対策</h2>
   </div>
 </section><!-- ./sec-mv -->
 <div class="content">
