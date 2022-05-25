@@ -8,7 +8,7 @@
  */
 
 get_header();
-/* Template Name: web */
+/* Template Name: web-sns */
 ?>
 
 <section class="sec-mv service-web-mv">

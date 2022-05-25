@@ -37,7 +37,7 @@ get_header();
                             定に従ってご報告します。リスクランクは高・中・小の3つに分類され、情報を交通整理
                             します。</p>
                             <div class="service-detail-btn">
-                                <a href="<?php bloginfo('url'); ?>/web/" class="detail-btn">詳しくはこちら</a>
+                                <a href="<?php bloginfo('url'); ?>/web-sns/" class="detail-btn">詳しくはこちら</a>
                             </div>
                         </div>
                     </div>
