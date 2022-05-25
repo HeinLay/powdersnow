@@ -802,7 +802,8 @@
 #service-detail-page .tabs-service-nav .tabs-service li a::after {
   position: absolute;
   top: 62%;
-  left: 48%;
+  left: 50%;
+  transform: translateX(-50%);
   width: 24px;
   height: 13px;
   background: url('../images/common/ico_down_arrow.png') no-repeat center/cover;
@@ -1028,11 +1029,13 @@
   background-image: linear-gradient(rgba(29, 67, 102, 0.80), rgba(29, 67, 102, 0.80)), url('../images/service-detail/img_service_detail_security_mv.png');
 }
 
-#service-detail-page.detail-security-page .tabs-service-nav .tabs-service li a::after {
+#service-detail-page.detail-security-page .tabs-service-nav .tabs-service li a::after,
+#service-detail-page.detail-forenic-page .tabs-service-nav .tabs-service li a::after {
   top: 70%;
 }
 
-#service-detail-page.detail-security-page .service-detail-content .detail-list-txt {
+#service-detail-page.detail-security-page .service-detail-content .detail-list-txt,
+#service-detail-page.detail-forenic-page .service-detail-content .detail-list-txt {
   padding: 40px 0 20px;
 }
 
@@ -1044,7 +1047,8 @@
 }
 
 #service-detail-page.detail-security-page .ideal-company-blk .ideal-company-list,
-#service-detail-page.detail-security-page .diagnosis-summary-list {
+#service-detail-page.detail-security-page .diagnosis-summary-list,
+#service-detail-page.detail-forenic-page .symptom-list {
   line-height: 2.5;
   padding: 50px 60px;
   border: 1px solid #df543a;
@@ -1076,8 +1080,17 @@
   padding: 40px 0 50px;
 }
 
-/* Works Page */
+/* --Forenic-- */
+.sec-mv.service-forenic-mv {
+  background-image: linear-gradient(rgba(29, 67, 102, 0.80), rgba(29, 67, 102, 0.80)), url('../images/service-detail/img_service_detail_forenic_mv.png');
+}
 
+#service-detail-page.detail-forenic-page .symptom-list {
+  width: 722px;
+  margin: 40px auto;
+}
+
+/* Works Page */
 #works-page .sec-works {
   padding: 100px 0;
 }
@@ -2097,7 +2110,8 @@
   }
 
   /* --Security-- */
-  #service-detail-page.detail-security-page .service-detail-content .detail-list-txt {
+  #service-detail-page.detail-security-page .service-detail-content .detail-list-txt,
+  #service-detail-page.detail-forenic-page .service-detail-content .detail-list-txt {
     padding: 3.226vw 0 1.613vw;
   }
 
@@ -2106,7 +2120,8 @@
   }
 
   #service-detail-page.detail-security-page .ideal-company-blk .ideal-company-list,
-  #service-detail-page.detail-security-page .diagnosis-summary-list {
+  #service-detail-page.detail-security-page .diagnosis-summary-list,
+  #service-detail-page.detail-forenic-page .symptom-list {
     padding: 4.032vw 4.839vw;
     border: 0.081vw solid #df543a;
   }
@@ -2131,6 +2146,12 @@
 
   #service-detail-page.detail-security-page .report-txt {
     padding: 3.226vw 0 4.032vw;
+  }
+
+  /* --Forenic-- */
+  #service-detail-page.detail-forenic-page .symptom-list {
+    width: 58.226vw;
+    margin: 3.226vw auto;
   }
 
   /* Works Page */
@@ -2967,7 +2988,7 @@
 
   #service-detail-page .service-detail-content .service-detail-row .service-detail-ttl {
     font-size: 5.128vw;
-    text-indent: 2.308vw;
+    text-indent: 0;
     border-bottom: 0.256vw solid #1d4366;
   }
 
@@ -3115,11 +3136,13 @@
 
   /* --Security-- */
 
-  #service-detail-page.detail-security-page .tabs-service-nav .tabs-service li a::after {
+  #service-detail-page.detail-security-page .tabs-service-nav .tabs-service li a::after,
+  #service-detail-page.detail-forenic-page .tabs-service-nav .tabs-service li a::after {
     top: 50%;
   }
 
-  #service-detail-page.detail-security-page .service-detail-content .detail-list-txt {
+  #service-detail-page.detail-security-page .service-detail-content .detail-list-txt,
+  #service-detail-page.detail-forenic-page .service-detail-content .detail-list-txt {
     padding: 10.256vw 0 5.128vw;
   }
 
@@ -3129,7 +3152,8 @@
   }
 
   #service-detail-page.detail-security-page .ideal-company-blk .ideal-company-list,
-  #service-detail-page.detail-security-page .diagnosis-summary-list {
+  #service-detail-page.detail-security-page .diagnosis-summary-list,
+  #service-detail-page.detail-forenic-page .symptom-list {
     padding: 8.821vw;
     border: 0.256vw solid #df543a;
   }
@@ -3158,7 +3182,13 @@
 
   #service-detail-page.detail-security-page .result-report-img {
     flex-direction: column;
-}
+  }
+
+  /* --Forenic-- */
+  #service-detail-page.detail-forenic-page .symptom-list {
+    width: 100%;
+    margin: 10.226vw auto;
+  }
 
   /* Works Page */
   #works-page .sec-works {
