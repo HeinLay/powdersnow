@@ -1565,7 +1565,7 @@
   text-align: center;
 }
 
-#contact-page .sec-contact-form .send-btn input[type='submit'] {
+#contact-page .sec-contact-form .send-btn button {
   padding: 12px 30px;
   border: 0;
   background: #df543a;
@@ -2478,7 +2478,7 @@
     padding-top: 4.597vw;
   }
 
-  #contact-page .sec-contact-form .send-btn input[type='submit'] {
+  #contact-page .sec-contact-form .send-btn button {
     padding: 0.968vw 2.419vw;
     font-size: 1.29vw;
     border-radius: 2.419vw;
@@ -3064,7 +3064,7 @@
   }
 
   #service-page .sec-service .service-item .service-detail-btn .detail-btn {
-    padding: 0.968vw 2.419vw;
+    padding: 1.977vw 2.419vw;
   }
 
   /* sec-works
@@ -3607,15 +3607,10 @@
     padding-top: 10.615vw;
   }
 
-  #contact-page .sec-contact-form .send-btn input[type='submit'] {
+  #contact-page .sec-contact-form .send-btn button {
     padding: 3.077vw 7.692vw;
     font-size: 3.590vw;
     border-radius: 7.692vw;
-  }
-
-  #contact-page .sec-contact-form .agree-checkbox input[type=checkbox] {
-    width: 6%;
-    transform: scale(1.5);
   }
 
   #contact-page .sec-contact-form .agree-checkbox .wpcf7-list-item {
