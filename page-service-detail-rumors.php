@@ -74,7 +74,7 @@ get_header();
           す。創業以来、検索サイトのアルゴリズムやSEO対策を研究し続け、ノウハウを蓄積してきた CYBER VALUE だからこそ提供できるサービスです。
         </p>
         <div class="search-result-img">
-          <img src="<?php bloginfo('template_directory'); ?>/assets/images/service-detail/img_search_results.png" alt="">
+          <img src="<?php bloginfo('template_directory'); ?>/assets/images/service-detail/img_search_results.png" alt="CYBER VALUE が選ばれる理由">
         </div>
         <p>風評被害対策は通常のSEO対策とは考え方も施策も異なり、「逆SEO対策」と呼ばれます。この逆SEO対策は、通常のSEO対策より作業量が多く、難易度が高くなります。それで
           も、なぜ当社は施策を成功させられるのか、その理由をご紹介いたします。</p>
