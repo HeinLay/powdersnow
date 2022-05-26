@@ -158,3 +158,8 @@ function cybervalue_theme_setup() {
 }
 
 add_action('after_setup_theme', 'cybervalue_theme_setup');
+
+function template_uri() {
+	return get_template_directory_uri();
+}
+add_shortcode("template_uri", "template_uri");
