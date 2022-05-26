@@ -220,11 +220,16 @@ background-size: cover;
 }
 
 .contact-blk {
-  width: 40%;
+  width: 40.8%;
   padding: 50px 8px 60px;
   background-color: rgba(255, 255, 255, 0.90);
   text-align: center;
   border-radius: 15px;
+  margin-right: 80px;
+}
+
+.contact-blk:last-child {
+  margin-right: 0;
 }
 
 .instruction-icon-group {
@@ -536,8 +541,10 @@ footer {
   }
 
   .contact-blk {
+    width: 28.629vw;
     padding: 4.032vw 1.253vw 4.839vw;
     border-radius: 1.21vw;
+    margin-right: 4.452vw;
   }
 
   .contact-blk .instruction-icon .instruction-icon-group {
@@ -845,6 +852,7 @@ footer {
     margin-top: 11.762vw;
     padding-top: 3.821vw;
     border-radius: 3.846vw;
+    margin-right: 0;
   }
 
   .contact-blk-sp {

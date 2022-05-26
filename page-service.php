@@ -20,7 +20,7 @@ get_header();
     <div id="service-page">
         <section class="sec-service">
             <div class="l-inner">
-                <h3 class="service-ttl">企業イメージの回復・維持を総合サポート</h3>
+                <h3 class="service-ttl">企業イメージの<br class="sp">回復・維持を総合サポート</h3>
                 <div class="service-item">
                     <div class="service-num">01</div>
                     <div class="service-row">

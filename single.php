@@ -25,16 +25,14 @@ $category_link = get_category_link($cat_id); ?>
       <div class="l-inner">
         <div class="events-detail-img">
           <?php if (has_post_thumbnail()) : ?>
-            <?php  echo get_the_post_thumbnail( $post->ID, 'thumbnail' ); ?>
+          <?php  echo get_the_post_thumbnail( $post->ID, 'thumbnail' ); ?>
           <?php else : ?>
-            <img src="<?php print get_template_directory_uri(); ?>/assets/images/common/no_image.jpg" alt="Image">
+          <img src="<?php print get_template_directory_uri(); ?>/assets/images/common/no_image.jpg" alt="Image">
           <?php endif; ?>
           <a href="<?php echo $category_link; ?>" class="events-detail-btn"><?php echo $cat_name; ?></a>
         </div>
         <h3 class="event-detail-ttl"><?php the_title(); ?></h3>
-        <div class="desc">
           <?php the_content(); ?>
-        </div>
         <div class="single-pagination">
           <ul>
             <li><?php previous_post_link('%link','&#10229前の事例へ'); ?></li>

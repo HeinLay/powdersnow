@@ -8,16 +8,16 @@
  */
 
 get_header();
-/* Template Name: forenic */
+/* Template Name: forensic */
 ?>
 
-<section class="sec-mv service-forenic-mv">
+<section class="sec-mv service-forensic-mv">
   <div class="l-inner">
     <h2 class="mv-ttl"><span class="mvsub-ttl">SERVICE</span>フォレンジック調査・<br class="sp">対応</h2>
   </div>
 </section><!-- ./sec-mv -->
 <div class="content">
-  <div id="service-detail-page" class="detail-forenic-page">
+  <div id="service-detail-page" class="detail-forensic-page">
     <div class="tabs-service-nav">
       <ul class="tabs-service l-inner">
         <li><a href="#service-overview">サービス概要</a></li>

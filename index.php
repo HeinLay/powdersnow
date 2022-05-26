@@ -161,7 +161,7 @@ get_header();
         </div>
         <div class="right-service-txt">
           <h4 class="service-item-ttl">問題の解決</h4>
-          <p>企業イメージに大きく関わる、つぎのような問題をスピード解決いたします。</p>
+          <p class="service-txt">企業イメージに大きく関わる、つぎのような問題をスピード解決いたします。</p>
           <p class="service-txt">検索サイトのサジェストにネガティブなキーワードが出るようになってしまった</p>
           <p class="service-list">サジェスト削除（Yahoo!・Google・Bing）</p>
           <p class="service-list">逆SEO</p>
@@ -181,7 +181,7 @@ get_header();
         </div>
         <div class="right-service-txt">
           <h4 class="service-item-ttl">原因の究明・イメージ回復</h4>
-          <p>風評被害やトラブル発生の原因となったのはなにか、どこが炎上の発生源かを調査し、
+          <p class="service-txt">風評被害やトラブル発生の原因となったのはなにか、どこが炎上の発生源かを調査し、
             イメージ回復のためにもっとも最適な施策を検討、実施します。
           </p>
           <p class="service-txt">企業やサイトの評判を底上げする施策</p>
@@ -201,7 +201,7 @@ get_header();
         </div>
         <div class="right-service-txt">
           <h4 class="service-item-ttl">価値の維持</h4>
-          <p>風評被害、サイバー攻撃被害を受けてしまった企業さまに対し、
+          <p class="service-txt">風評被害、サイバー攻撃被害を受けてしまった企業さまに対し、
           つぎのような施策で価値の維持までトータルでサポートいたします。</p>
           <p class="service-list">セキュリティ運用</p>
           <p class="service-list">保守管理（月一度の検査ほか）</p>
@@ -218,7 +218,7 @@ get_header();
         </div>
         <div class="right-service-txt">
           <h4 class="service-item-ttl">サイバーチェック</h4>
-          <p>
+          <p class="service-txt">
             取引先や採用の応募者の素性を調査し、取引・採用前に素行に問題のない
           人物であるか確認しておける、現代のネット信用調査サービスです。</p>
           <p class="service-list">反社チェック</p>
