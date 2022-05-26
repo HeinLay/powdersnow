@@ -1574,8 +1574,6 @@
   font-weight: 700;
   cursor: pointer;
   border-radius: 30px;
-  width: 235px;
-  height: 50px;
   -webkit-background-clip: padding-box;
 }
 
@@ -2021,6 +2019,9 @@
     padding: 6.29vw 1.613vw 6.452vw;
   }
 
+  #service-page .sec-works .l-inner {
+    max-width: 91%;
+  }
 
   #service-page .sec-works .works-item-group {
     padding: 6.048vw 2.419vw 4.839vw;
@@ -2481,8 +2482,6 @@
     padding: 0.968vw 2.419vw;
     font-size: 1.29vw;
     border-radius: 2.419vw;
-    width: 18.952vw;
-    height: 4.032vw;
   }
 
   /* 404 Page */
@@ -2728,6 +2727,7 @@
 
   .sec-question .toppg-ttl {
     font-size: 6.41vw;
+    letter-spacing: -0.3vw;
   }
 
   .sec-question .question-blk {
@@ -3058,8 +3058,9 @@
   }
 
   #service-page .sec-service .service-item .service-detail-btn {
-    margin-top: 1.935vw;
-    margin-right: -5.887vw;
+    margin-top: 7.935vw;
+    margin-right: 0;
+    text-align: center;
   }
 
   #service-page .sec-service .service-item .service-detail-btn .detail-btn {
@@ -3571,7 +3572,7 @@
   }
 
   #contact-page .sec-contact-form .required-txt {
-    font-size: 3.59vw;
+    font-size: 2.98vw;
   }
 
   #contact-page .sec-contact-form .policy-blk {
@@ -3608,14 +3609,12 @@
 
   #contact-page .sec-contact-form .send-btn input[type='submit'] {
     padding: 3.077vw 7.692vw;
-    font-size: 3.077vw;
+    font-size: 3.590vw;
     border-radius: 7.692vw;
-    width: 49.615vw;
-    height: 10.974vw;
   }
 
   #contact-page .sec-contact-form .agree-checkbox input[type=checkbox] {
-    width: 5%;
+    width: 6%;
     transform: scale(1.5);
   }
 

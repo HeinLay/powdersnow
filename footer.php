@@ -42,7 +42,7 @@
     </div>
 </section><!-- ./sec-contact -->
 <div class="operating-company l-inner">
-    <a href="#" class="company-logo">
+    <a href="<?php echo home_url('/'); ?>" class="company-logo">
         <img src="<?php bloginfo('template_directory'); ?>/assets/images/common/img_logo01.png" alt="CYBER_VALUE">
     </a>
     <!--<h2 class="operating-ttl">運営会社</h2>
