@@ -1574,6 +1574,9 @@
   font-weight: 700;
   cursor: pointer;
   border-radius: 30px;
+  width: 235px;
+  height: 50px;
+  -webkit-background-clip: padding-box;
 }
 
 /* 404 Page */
@@ -2478,6 +2481,8 @@
     padding: 0.968vw 2.419vw;
     font-size: 1.29vw;
     border-radius: 2.419vw;
+    width: 18.952vw;
+    height: 4.032vw;
   }
 
   /* 404 Page */
@@ -3605,6 +3610,8 @@
     padding: 3.077vw 7.692vw;
     font-size: 3.077vw;
     border-radius: 7.692vw;
+    width: 49.615vw;
+    height: 10.974vw;
   }
 
   #contact-page .sec-contact-form .agree-checkbox input[type=checkbox] {
