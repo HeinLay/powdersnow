@@ -77,8 +77,8 @@ img {
 /* no-image
 ------------------------------------------------------------- */
 .no-image {
-background: url('../images/common/no_image.jpg') no-repeat center;
-background-size: cover;
+  background: url('../images/common/no_image.jpg') no-repeat center;
+  background-size: cover;
 }
 
 /* Header
@@ -221,11 +221,11 @@ background-size: cover;
 
 .contact-blk {
   width: 40.8%;
+  margin-right: 80px;
   padding: 50px 8px 60px;
   background-color: rgba(255, 255, 255, 0.90);
   text-align: center;
   border-radius: 15px;
-  margin-right: 80px;
 }
 
 .contact-blk:last-child {
@@ -542,9 +542,9 @@ footer {
 
   .contact-blk {
     width: 28.629vw;
+    margin-right: 4.452vw;
     padding: 4.032vw 1.253vw 4.839vw;
     border-radius: 1.21vw;
-    margin-right: 4.452vw;
   }
 
   .contact-blk .instruction-icon .instruction-icon-group {
@@ -850,9 +850,9 @@ footer {
   .contact-blk {
     width: 100%;
     margin-top: 11.762vw;
+    margin-right: 0;
     padding-top: 3.821vw;
     border-radius: 3.846vw;
-    margin-right: 0;
   }
 
   .contact-blk-sp {
