@@ -18,7 +18,7 @@ get_header();
   <div class="l-inner">
     <h2 class="mv-ttl">あらゆる悪意から会社を守り<br>企業価値を<span>最大化</span>する</h2>
     <div class="mv-btn">
-      <a href="#" class="mv-inquiry-btn">お問い合わせ</a>
+      <a href="<?php echo get_permalink(get_page_by_path('contact')) ?>" class="mv-inquiry-btn">お問い合わせ</a>
       <a href="#" class="mv-request-btn">資料請求</a>
     </div>
     <div class="growth-col">

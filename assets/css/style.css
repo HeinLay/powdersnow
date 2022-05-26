@@ -588,7 +588,7 @@
 .sec-column .right-column-item .column-item {
   margin-right: 5%;
   font-size: 14px;
-  max-width: 318px;
+  width: 318px;
 }
 
 .sec-column .right-column-item .column-item:nth-child(3n) {
@@ -596,7 +596,7 @@
 }
 
 .sec-column .right-column-item .column-item .column-img {
-  width: 318px;
+  max-width: 318px;
   height: 211px;
 }
 
@@ -1048,7 +1048,9 @@
 
 #service-detail-page.detail-security-page .ideal-company-blk .ideal-company-list,
 #service-detail-page.detail-security-page .diagnosis-summary-list,
-#service-detail-page.detail-forenic-page .symptom-list {
+#service-detail-page.detail-forenic-page .symptom-list,
+#service-detail-page.detail-suggest-page .suggestion-example-blk .suggestion-list,
+#service-detail-page.detail-suggest-page .range-measure-list {
   line-height: 2.5;
   padding: 50px 60px;
   border: 1px solid #df543a;
@@ -1088,6 +1090,47 @@
 #service-detail-page.detail-forenic-page .symptom-list {
   width: 722px;
   margin: 40px auto;
+}
+
+/* --Suggest-- */
+.sec-mv.service-suggest-mv {
+  background-image: linear-gradient(rgba(29, 67, 102, 0.80), rgba(29, 67, 102, 0.80)), url('../images/service-detail/img_service_detail_suggest_mv.png');
+}
+
+#service-detail-page.detail-suggest-page .suggestion-example-blk {
+  display: flex;
+  width: 670px;
+  margin: 0 auto;
+  justify-content: space-between;
+  padding: 95px 0 50px;
+}
+
+#service-detail-page.detail-suggest-page .suggestion-example-blk .suggestion-col .suggestion-list {
+  width: 248px;
+  height: 92%;
+  padding: 50px 55px;
+}
+
+#service-detail-page.detail-suggest-page .suggestion-example-blk .suggestion-col .suggestion-col-txt {
+  text-align: center;
+  font-size: 18px;
+  color: #df543a;
+}
+
+#service-detail-page.detail-suggest-page .suggestion-example-blk .suggest-arrow-ico {
+  display: flex;
+  align-items: center;
+  max-width: 54px;
+}
+
+#service-detail-page.detail-suggest-page .suggestion-related-txt {
+  text-align: center;
+}
+
+#service-detail-page.detail-suggest-page .range-measure-list {
+  width: 499px;
+  margin: 0 auto;
+  margin-top: 50px;
 }
 
 /* Works Page */
@@ -1294,8 +1337,8 @@
 }
 
 #events-column-page .column-tabs .column-item {
-  width: 28.7%;
-  margin-right: 93px;
+  width: 28.6%;
+  margin-right: 7.1%;
   padding-bottom: 70px;
 }
 
@@ -1304,7 +1347,7 @@
 }
 
 #events-column-page .column-tabs .column-item .column-item-img {
-  width: 383px;
+  max-width: 383px;
   height: 254px;
 }
 
@@ -1852,11 +1895,11 @@
 
   .sec-column .right-column-item .column-item {
     font-size: 1.129vw;
-    max-width: 25.645vw;
+    width: 25.645vw;
   }
 
   .sec-column .right-column-item .column-item .column-img {
-    width: 22.845vw;
+    max-width: 22.845vw;
     height: 15.816vw;
   }
 
@@ -2121,7 +2164,9 @@
 
   #service-detail-page.detail-security-page .ideal-company-blk .ideal-company-list,
   #service-detail-page.detail-security-page .diagnosis-summary-list,
-  #service-detail-page.detail-forenic-page .symptom-list {
+  #service-detail-page.detail-forenic-page .symptom-list,
+  #service-detail-page.detail-suggest-page .suggestion-example-blk .suggestion-list,
+  #service-detail-page.detail-suggest-page .range-measure-list {
     padding: 4.032vw 4.839vw;
     border: 0.081vw solid #df543a;
   }
@@ -2153,6 +2198,30 @@
     width: 58.226vw;
     margin: 3.226vw auto;
   }
+
+  /* --Suggest-- */
+#service-detail-page.detail-suggest-page .suggestion-example-blk {
+  width: 54.032vw;
+  padding: 7.661vw 0 4.032vw;
+}
+
+#service-detail-page.detail-suggest-page .suggestion-example-blk .suggestion-col .suggestion-list {
+  width: 20vw;
+  padding: 4.032vw 4.435vw;
+}
+
+#service-detail-page.detail-suggest-page .suggestion-example-blk .suggestion-col .suggestion-col-txt {
+  font-size: 1.452vw;
+}
+
+#service-detail-page.detail-suggest-page .suggestion-example-blk .suggest-arrow-ico {
+  max-width: 4.355vw;
+}
+
+#service-detail-page.detail-suggest-page .range-measure-list {
+  width: 40.242vw;
+  margin-top: 4.032vw;
+}
 
   /* Works Page */
   #works-page .sec-works {
@@ -2255,12 +2324,11 @@
   }
 
   #events-column-page .column-tabs .column-item {
-    margin-right: 6.600vw;
     padding-bottom: 5.645vw;
   }
 
   #events-column-page .column-tabs .column-item .column-item-img {
-    width: 30.887vw;
+    max-width: 30.887vw;
     height: 20.484vw;
   }
 
@@ -2834,7 +2902,7 @@
   }
 
   .sec-column .right-column-item .column-item .column-img {
-    width: 44.872vw;
+    max-width: 44.872vw;
     height: 29.744vw;
   }
 
@@ -3153,7 +3221,9 @@
 
   #service-detail-page.detail-security-page .ideal-company-blk .ideal-company-list,
   #service-detail-page.detail-security-page .diagnosis-summary-list,
-  #service-detail-page.detail-forenic-page .symptom-list {
+  #service-detail-page.detail-forenic-page .symptom-list,
+  #service-detail-page.detail-suggest-page .suggestion-example-blk .suggestion-list,
+  #service-detail-page.detail-suggest-page .range-measure-list {
     padding: 8.821vw;
     border: 0.256vw solid #df543a;
   }
@@ -3189,6 +3259,38 @@
     width: 100%;
     margin: 10.226vw auto;
   }
+
+  /* --Suggest-- */
+#service-detail-page.detail-suggest-page .suggestion-example-blk {
+  width: 100%;
+  padding: 12.359vw 0 8.821vw;
+  flex-direction: column;
+  align-items: center;
+  gap: 4.259vw;
+}
+
+#service-detail-page.detail-suggest-page .suggestion-example-blk .suggestion-col .suggestion-list {
+  width: 60.59vw;
+  padding: 9.821vw 14.103vw;
+}
+
+#service-detail-page.detail-suggest-page .suggestion-example-blk .suggest-arrow-ico {
+  transform: rotate(90deg);
+  max-width: 13.846vw;
+}
+
+#service-detail-page.detail-suggest-page .suggestion-example-blk .suggestion-col .suggestion-col-txt {
+  font-size: 4.103vw;
+}
+
+#service-detail-page.detail-suggest-page .suggestion-related-txt {
+  text-align: left;
+}
+
+#service-detail-page.detail-suggest-page .range-measure-list {
+  width: 100%;
+  margin-top: 12.821vw;
+}
 
   /* Works Page */
   #works-page .sec-works {
@@ -3311,7 +3413,7 @@
 
   #events-column-page .column-tabs .column-item {
     width: 48.6%;
-    margin-right: 2.42vw;
+    margin-right: 2.8%;
     padding-bottom: 17.949vw;
   }
 
