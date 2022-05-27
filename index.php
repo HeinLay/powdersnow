@@ -14,7 +14,7 @@
 
 get_header();
 ?>
-<section class="sec-mv top-mv clearfix">
+<section class="sec-mv top-mv">
   <div class="l-inner">
     <h2 class="mv-ttl">あらゆる悪意から会社を守り<br>企業価値を<span>最大化</span>する</h2>
     <div class="mv-btn">

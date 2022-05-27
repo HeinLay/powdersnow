@@ -205,7 +205,7 @@ img {
 }
 
 .contact-ttl {
-  line-height: 1.7;
+  line-height: 1.9;
   margin: 0 auto;
   color: #ffffff;
   font-size: 28px;
@@ -217,11 +217,11 @@ img {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
-  padding: 70px 62px 0;
+  padding: 60px 97px 0;
 }
 
 .contact-blk {
-  width: 40.8%;
+  width: 43.8%;
   margin-right: 9.2%;
   padding: 50px 8px 60px;
   background-color: rgba(255, 255, 255, 0.90);
@@ -538,7 +538,7 @@ footer {
   }
 
   .contact-row {
-    padding: 5.323vw 2.161vw;
+    padding: 4.839vw 7.823vw 0;
   }
 
   .contact-blk {

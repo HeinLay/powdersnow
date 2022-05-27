@@ -40,7 +40,7 @@
 .top-mv {
   position: relative;
   z-index: 0;
-  padding: 140px 0 50px;
+  padding: 140px 0 83px;
   background-image: linear-gradient(rgba(245, 242, 239, 0.75), rgba(245, 242, 239, 0.75)), url('../images/top/img_mv_bg.png');
 }
 
@@ -78,7 +78,7 @@
 
 .top-mv .growth-col {
   position: absolute;
-  top: 57%;
+  top: 54%;
   width: 260px;
 }
 
@@ -126,7 +126,7 @@
 }
 
 .sec-about .about-blk {
-  width: 65.8%;
+  width: 62.8%;
   margin: 0 auto;
 }
 
@@ -136,7 +136,7 @@
 
 .sec-about .about-blk .about-txt {
   line-height: 2;
-  padding: 41px 0;
+  padding: 40px 0 0;
   color: #333333;
   font-size: 16px;
   letter-spacing: 1px;
@@ -227,6 +227,7 @@
 
 .sec-reason .reason-item-group .reason-item .reason-txt {
   line-height: 2;
+  letter-spacing: 0.3px;
 }
 
 .sec-reason .reason-item-group .reason-item .reason-num {
@@ -263,6 +264,7 @@
 }
 
 .sec-reason .detail-btn {
+  width: 226px;
   margin: 0 auto;
   background-color: #df543a;
 }
@@ -332,6 +334,10 @@
   text-align: center;
 }
 
+.sec-service .service-ttl:nth-of-type(2) {
+  padding-top: 65px;
+}
+
 .sec-service .service-ttl::before {
   display: inline-block;
   position: absolute;
@@ -344,6 +350,7 @@
 }
 
 .sec-service .service-ttl:nth-of-type(2):before {
+  top: 79%;
   width: 410px;
 }
 
@@ -546,7 +553,7 @@
 #works-detail-page .sec-works-detail .works-detail-txt .works-list-group .works-list {
   display: flex;
   align-items: center;
-  padding-bottom: 11px;
+  padding-bottom: 15px;
 }
 
 .sec-works .works-item-group .works-item .works-list span {
@@ -693,7 +700,7 @@
 
 .sec-faq .faq-container .faq-head .plus-minus::before {
   right: 13px;
-  width: 2px;
+  width: 1px;
   height: 10px;
   margin-top: -6px;
 }
@@ -701,7 +708,7 @@
 .sec-faq .faq-container .faq-head .plus-minus::after {
   right: 8.6px;
   width: 10px;
-  height: 2px;
+  height: 1px;
   margin-top: -2px;
 }
 
@@ -1613,7 +1620,7 @@
   /* top-mv
 ------------------------------------------------------------- */
   .top-mv {
-    padding: 9.69vw 0 7.032vw;
+    padding: 11.290vw 0 6.694vw;
   }
 
   .top-mv .mv-person-img {
@@ -1764,6 +1771,10 @@
     font-size: 2.016vw;
   }
 
+  .sec-reason .detail-btn {
+    width: 18.226vw;
+  }
+
   /* sec-question
 ------------------------------------------------------------- */
   .sec-question .l-inner {
@@ -1802,6 +1813,10 @@
     margin-bottom: 2.419vw;
     padding-bottom: 2.984vw;
     font-size: 2.177vw;
+  }
+
+  .sec-service .service-ttl:nth-of-type(2) {
+    padding-top: 5.242vw;
   }
 
   .sec-service .service-ttl::before {
@@ -1908,7 +1923,7 @@
   .sec-works .works-item-group .works-item .works-list,
   #works-page .sec-works .works-item-row .right-works-txt .works-list,
   #works-detail-page .sec-works-detail .works-detail-txt .works-list-group .works-list {
-    padding-bottom: 0.887vw;
+    padding-bottom: 1.210vw;
   }
 
   .sec-works .works-item-group .works-item .works-list span {
@@ -1985,7 +2000,7 @@
 
   .sec-faq .faq-container .faq-head .plus-minus::before {
     right: 1.048vw;
-    width: 0.161vw;
+    width: 0.081vw;
     height: 0.806vw;
     margin-top: -0.484vw;
   }
@@ -1993,7 +2008,7 @@
   .sec-faq .faq-container .faq-head .plus-minus::after {
     right: 0.694vw;
     width: 0.806vw;
-    height: 0.161vw;
+    height: 0.081vw;
     margin-top: -0.161vw;
   }
 
@@ -2520,6 +2535,7 @@
 ------------------------------------------------------------- */
   .top-mv {
     padding: 9.397vw 0 103.821vw;
+    background-image: linear-gradient(rgba(245, 242, 239, 0.75), rgba(245, 242, 239, 0.75)), url('../images/top/img_mv_bg_sp.png');
   }
 
   .top-mv .l-inner {
@@ -2593,7 +2609,7 @@
   }
 
   .sub-ttl {
-    padding-bottom: 1.026vw;
+    padding-bottom: 0.126vw;
     font-size: 3.59vw;
     letter-spacing: 0.128vw;
   }
@@ -2601,7 +2617,7 @@
   /* detail-btn
 ------------------------------------------------------------- */
   .detail-btn {
-    width: 43.726vw;
+    width: 41.026vw;
     padding: 2.821vw;
     font-size: 3.59vw;
     border-radius: 7.692vw;
@@ -2721,8 +2737,16 @@
     font-size: 5.128vw;
   }
 
+  .sec-reason .detail-btn {
+    width: 50%;
+  }
+
   /* sec-question
 ------------------------------------------------------------- */
+  .sec-question {
+    background: url(../images/top/img_question_bg_sp.png) no-repeat center/cover;
+  }
+
   .sec-question .l-inner {
     padding: 13.282vw 8.385vw 5.392vw;
   }
@@ -2761,13 +2785,17 @@
   }
 
   .sec-service .toppg-ttl {
-    padding-bottom: 5.245vw;
+    padding-bottom: 14.359vw;
   }
 
   .sec-service .service-ttl {
     margin-bottom: 7.692vw;
     padding-bottom: 9.487vw;
     font-size: 5.641vw;
+  }
+
+  .sec-service .service-ttl:nth-of-type(2) {
+    padding-top: 5.722vw;
   }
 
   .sec-service .service-ttl::before {
@@ -2777,7 +2805,8 @@
   }
 
   .sec-service .service-ttl:nth-of-type(2):before {
-    width: 100%;
+    top: 67%;
+    width: 94%;
   }
 
   .sec-service .service-item {
@@ -2842,7 +2871,7 @@
   }
 
   .sec-service .service-item .right-service-txt .service-txt {
-    padding: 3.744vw 0 0;
+    padding: 10.256vw 0 0;
   }
 
   .sec-service .service-item .right-service-txt p {
@@ -2921,7 +2950,7 @@
   }
 
   .sec-works .works-item-group .works-item .works-list span {
-    width: 21.208vw;
+    width: 20.513vw;
     margin-right: 4.359vw;
     padding: 0.226vw 2.121vw;
     border: 0.256vw solid #1d4366;
@@ -2945,7 +2974,7 @@
   }
 
   .sec-column .left-column-item .toppg-ttl {
-    padding-bottom: 9.956vw;
+    padding-bottom: 10.556vw;
   }
 
   .sec-column .column-btn {
@@ -2974,7 +3003,7 @@
   }
 
   .sec-column .right-column-item .column-item .column-txt {
-    width: 40.8%;
+    width: 42.8%;
   }
 
   .sec-column .right-column-item .column-item .column-item-ttl {
@@ -3006,39 +3035,41 @@
   }
 
   .sec-faq .faq-container .faq-head {
-    padding: 5.133vw 0.864vw 5.333vw 0;
+    padding: 4.133vw 0.864vw 3.433vw 0;
     border-bottom: 0.256vw solid #1d4366;
   }
 
   .sec-faq .faq-container .faq-head p {
     display: flex;
     width: 78%;
+    line-height: 2;
   }
 
   .sec-faq .faq-container .faq-head .plus-minus {
     width: 5.892vw;
     height: 5.892vw;
     margin: 0 0 0.256vw 0;
-    margin-top: 2.864vw;
+    margin-top: 4.064vw;
     border: 0.256vw solid #1d4366;
   }
 
   .sec-faq .faq-container .faq-head .plus-minus::before {
-    right: 2.333vw;
-    width: 0.513vw;
+    right: 2.463vw;
+    width: 0.256vw;
     height: 2.564vw;
     margin-top: -1.138vw;
   }
 
   .sec-faq .faq-container .faq-head .plus-minus::after {
-    right: 1.305vw;
+    right: 1.405vw;
     width: 2.464vw;
-    height: 0.513vw;
-    margin-top: -0.213vw;
+    height: 0.256vw;
+    margin-top: -0.013vw;
   }
 
   .sec-faq .faq-container .faq-num {
     display: inline-block;
+    width: 30%;
     padding-top: 1.938vw;
     padding-right: 3.749vw;
     font-size: 5.641vw;
