@@ -1597,6 +1597,10 @@
 }
 
 /*Terms Page*/
+.sec-terms-mv {
+  background-image: linear-gradient(rgba(29, 67, 102, 0.80), rgba(29, 67, 102, 0.80)), url('../images/terms/img_terms_mv.png');
+}
+
 #terms .sec-terms {
   padding: 95px 0;
 }

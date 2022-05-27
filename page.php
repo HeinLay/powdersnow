@@ -17,7 +17,7 @@ get_header();
 	<?php if (is_page('terms')) : ?>
 		<section class="sec-mv sec-terms-mv">
 			<div class="l-inner">
-				<h2 class="mv-ttl"><span class="mvsub-ttl">Terms</span></h2>
+				<h2 class="mv-ttl"><span class="mvsub-ttl">TERMS</span>利用規約</h2>
 			</div>
   	</section><!-- ./sec-mv -->
 	<?php endif;  ?>
