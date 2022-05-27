@@ -796,17 +796,17 @@
 
 /* tabs-service-nav
 ------------------------------------------------------------- */
-#service-detail-page .tabs-service-nav {
+.tabs-service-nav {
   background-color: #f5f2ef;
 }
 
-#service-detail-page .tabs-service-nav .tabs-service {
+.tabs-service-nav .tabs-service {
   display: flex;
   justify-content: center;
   padding: 0;
 }
 
-#service-detail-page .tabs-service-nav .tabs-service li {
+.tabs-service-nav .tabs-service li {
   position: relative;
   width: 34.3%;
   text-align: center;
@@ -814,11 +814,11 @@
   ;
 }
 
-#service-detail-page .tabs-service-nav .tabs-service li:last-child {
+.tabs-service-nav .tabs-service li:last-child {
   border-right: 1px solid #ffffff;
 }
 
-#service-detail-page .tabs-service-nav .tabs-service li a {
+.tabs-service-nav .tabs-service li a {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -830,7 +830,7 @@
   font-weight: 700;
 }
 
-#service-detail-page .tabs-service-nav .tabs-service li a::after {
+.tabs-service-nav .tabs-service li a::after {
   position: absolute;
   top: 62%;
   left: 50%;
@@ -842,11 +842,11 @@
 }
 
 #service-detail-page .service-detail-content {
-  padding: 112px 30px;
+  padding: 20px 30px;
 }
 
-#service-detail-page .service-detail-content .service-detail-row:nth-child(2n) {
-  margin: 90px 0;
+#service-detail-page .service-detail-content .service-detail-row {
+  margin: 100px 0;
 }
 
 #service-detail-page .service-detail-content .service-detail-row .service-detail-ttl {
@@ -959,9 +959,8 @@
 
 #service-detail-page .service-detail-content .service-detail-row .emergency-contact-img {
   margin: 0 auto;
-  padding: 30px 0;
+  padding: 30px 0 0;
   max-width: 1103px;
-  image-rendering: -webkit-optimize-contrast;
 }
 
 /* --Rumors-- */
@@ -969,7 +968,8 @@
   background-image: linear-gradient(rgba(29, 67, 102, 0.80), rgba(29, 67, 102, 0.80)), url('../images/service-detail/img_service_detail_rumors_mv.png');
 }
 
-#service-detail-page.detail-rumors-page .tabs-service-nav .tabs-service li {
+.tabs-service-nav.tabs-rumors-nav .tabs-service li,
+.tabs-service-nav.tabs-suggest-nav .tabs-service li {
   width: 50%;
 }
 
@@ -1051,17 +1051,13 @@
   padding: 0 43px;
 }
 
-#service-detail-page.detail-rumors-page .service-detail-content {
-  padding: 120px 30px 60px;
-}
-
 /* --Security-- */
 .sec-mv.service-security-mv {
   background-image: linear-gradient(rgba(29, 67, 102, 0.80), rgba(29, 67, 102, 0.80)), url('../images/service-detail/img_service_detail_security_mv.png');
 }
 
-#service-detail-page.detail-security-page .tabs-service-nav .tabs-service li a::after,
-#service-detail-page.detail-forensic-page .tabs-service-nav .tabs-service li a::after {
+.tabs-service-nav.tabs-security-nav .tabs-service li a::after,
+.tabs-service-nav.tabs-forensic-nav .tabs-service li a::after {
   top: 70%;
 }
 
@@ -1387,7 +1383,6 @@
   color: #1d4366;
   font-weight: 700;
   text-align: center;
-  word-break: break-word;
 }
 
 #events-column-page .column-tabs .column-item .desc {
@@ -1438,12 +1433,10 @@
   font-size: 25px;
   font-weight: 700;
   text-align: center;
-  word-break: break-word;
 }
 
 #events-column-detail-page .events-column-detail p {
   line-height: 1.9;
-  word-break: break-word;
 }
 
 /* Contact Page */
@@ -1601,6 +1594,11 @@
   background-color: #df543a;
   color: #ffffff;
   border-radius: 30px;
+}
+
+/*Terms Page*/
+#terms .sec-terms {
+  padding: 95px 0;
 }
 
 /* IPad */
@@ -2043,30 +2041,30 @@
   /*Service Detail Page*/
   /* tabs-service-nav
 ------------------------------------------------------------- */
-  #service-detail-page .tabs-service-nav .tabs-service li {
+  .tabs-service-nav .tabs-service li {
     border-left: 0.081vw solid #ffffff;
   }
 
-  #service-detail-page .tabs-service-nav .tabs-service li:last-child {
+  .tabs-service-nav .tabs-service li:last-child {
     border-right: 0.081vw solid #ffffff;
   }
 
-  #service-detail-page .tabs-service-nav .tabs-service li a {
+  .tabs-service-nav .tabs-service li a {
     padding: 1.613vw 0 3.952vw;
     font-size: 1.613vw;
   }
 
-  #service-detail-page .tabs-service-nav .tabs-service li a::after {
+  .tabs-service-nav .tabs-service li a::after {
     width: 1.935vw;
     height: 1.048vw;
   }
 
   #service-detail-page .service-detail-content {
-    padding: 9.355vw 2.419vw;
+    padding: 1.613vw 2.419vw;
   }
 
-  #service-detail-page .service-detail-content .service-detail-row:nth-child(2n) {
-    margin: 7.258vw 0;
+  #service-detail-page .service-detail-content .service-detail-row {
+    margin: 8.065vw 0;
   }
 
   #service-detail-page .service-detail-content .service-detail-row .service-detail-ttl {
@@ -2140,7 +2138,7 @@
   }
 
   #service-detail-page .service-detail-content .service-detail-row .emergency-contact-img {
-    padding: 2.419vw 0;
+    padding: 2.419vw 0 0;
     max-width: 88.952vw;
   }
 
@@ -2196,10 +2194,6 @@
 
   #service-detail-page.detail-rumors-page .service-detail-content .service-detail-row .roadmap-survey legend {
     padding: 0 3.468vw;
-  }
-
-  #service-detail-page.detail-rumors-page .service-detail-content {
-    padding: 9.677vw 2.419vw 4.839vw;
   }
 
   /* --Security-- */
@@ -2500,6 +2494,10 @@
     border-radius: 2.419vw;
   }
 
+  /*Terms Page*/
+  #terms .sec-terms {
+    padding: 7.661vw 0;
+  }
 }
 
 
@@ -3098,21 +3096,21 @@
   /*Service Detail Page*/
   /* tabs-service-nav
 ------------------------------------------------------------- */
-  #service-detail-page .tabs-service-nav .tabs-service {
+  .tabs-service-nav .tabs-service {
     flex-direction: column;
   }
 
-  #service-detail-page .tabs-service-nav .tabs-service li {
+  .tabs-service-nav .tabs-service li {
     width: 100%;
     border: 0.256vw solid #ffffff;
   }
 
-  #service-detail-page .tabs-service-nav .tabs-service li a {
+  .tabs-service-nav .tabs-service li a {
     padding: 4.615vw 0;
     font-size: 3.59vw;
   }
 
-  #service-detail-page .tabs-service-nav .tabs-service li a::after {
+  .tabs-service-nav .tabs-service li a::after {
     top: 50%;
     right: 8%;
     left: unset;
@@ -3125,7 +3123,7 @@
     padding: 13.744vw 7.692vw;
   }
 
-  #service-detail-page .service-detail-content .service-detail-row:nth-child(2n) {
+  #service-detail-page .service-detail-content .service-detail-row {
     margin: 14.077vw 0;
   }
 
@@ -3204,13 +3202,14 @@
   }
 
   #service-detail-page .service-detail-content .service-detail-row .emergency-contact-img {
-    padding: 7.692vw 0;
+    padding: 7.692vw 0 0;
     max-width: 100%;
   }
 
   /* --Rumors-- */
 
-  #service-detail-page.detail-rumors-page .tabs-service-nav .tabs-service li {
+  .tabs-service-nav.tabs-rumors-nav .tabs-service li,
+  .tabs-service-nav.tabs-suggest-nav .tabs-service li {
     width: 100%;
   }
 
@@ -3273,14 +3272,10 @@
     padding: 0 11.026vw;
   }
 
-  #service-detail-page.detail-rumors-page .service-detail-content {
-    padding: 20.513vw 29.999px 10.256vw;
-  }
-
   /* --Security-- */
 
-  #service-detail-page.detail-security-page .tabs-service-nav .tabs-service li a::after,
-  #service-detail-page.detail-forensic-page .tabs-service-nav .tabs-service li a::after {
+  .tabs-service-nav.tabs-security-nav .tabs-service li a::after,
+  .tabs-service-nav.tabs-forensic-nav .tabs-service li a::after {
     top: 50%;
   }
 
@@ -3644,6 +3639,11 @@
     width: 35.179vw;
     padding: 1.733vw 2.564vw;
     border-radius: 7.692vw;
+  }
+
+  /*Terms Page*/
+  #terms .sec-terms {
+    padding: 5.661vw 0;
   }
 
 }

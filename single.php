@@ -30,7 +30,7 @@ $category_link = get_category_link($cat_id); ?>
           <img src="<?php print get_template_directory_uri(); ?>/assets/images/common/no_image.jpg" alt="Image">
           <?php endif; ?>
           <a href="<?php echo $category_link; ?>" class="events-detail-btn"><?php echo $cat_name; ?></a>
-        </div>
+        </div><!-- ./events-detail-img -->
         <h3 class="event-detail-ttl"><?php the_title(); ?></h3>
           <?php the_content(); ?>
         <div class="single-pagination">
@@ -39,7 +39,7 @@ $category_link = get_category_link($cat_id); ?>
             <li><a href="<?php echo get_post_type_archive_link('works'); ?>">コラム一覧へ</a></li>
             <li><?php next_post_link('%link','次の事例へ&#10230;'); ?></li>
           </ul>
-        </div>
+        </div><!-- ./single-pagination -->
       </div>
     </section><!-- ./events-column-detail -->
   </div><!-- #/events-column-detail-page -->

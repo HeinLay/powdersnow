@@ -14,11 +14,21 @@
 
 get_header();
 ?>
-
+	<?php if (is_page('terms')) : ?>
+		<section class="sec-mv sec-terms-mv">
+			<div class="l-inner">
+				<h2 class="mv-ttl"><span class="mvsub-ttl">Terms</span></h2>
+			</div>
+  	</section><!-- ./sec-mv -->
+	<?php endif;  ?>
 	<div class="content">
-	  <?php while( have_posts() ): the_post() ;?>
-      <?php the_content(); ?>
-    <?php endwhile;?>
+		<div id="terms">
+			<section class="sec-terms l-inner">
+				<?php while( have_posts() ): the_post() ;?>
+					<?php the_content(); ?>
+				<?php endwhile;?>
+			</section>
+		</div><!--terms-->
 	</div><!--content-->
 
 <?php
