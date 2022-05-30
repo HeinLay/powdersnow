@@ -946,6 +946,7 @@
   color: #1d4366;
   font-size: 20px;
   text-align: center;
+  padding: 0 90px;
 }
 
 #service-detail-page .service-detail-content .service-detail-row .roadmap-survey .detail-list-txt {
@@ -2150,6 +2151,7 @@
 
   #service-detail-page .service-detail-content .service-detail-row .roadmap-survey legend {
     font-size: 1.613vw;
+    padding: 0 7.258vw;
   }
 
   #service-detail-page .service-detail-content .service-detail-row .media-monitoring {
@@ -3230,6 +3232,7 @@
 
   #service-detail-page .service-detail-content .service-detail-row .roadmap-survey legend {
     font-size: 4.615vw;
+    padding: 0;
   }
 
   #service-detail-page .service-detail-content .service-detail-row .media-monitoring {
