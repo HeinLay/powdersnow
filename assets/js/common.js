@@ -1,4 +1,18 @@
 $(document).ready(function () {
+  function setHeight() {
+    $headerHeight = $('header').outerHeight();
+    $content = $('.sec-mv');
+    $sideNav = $('.header-nav');
+    $content.css('margin-top', $headerHeight);
+    $sideNav.css({
+      'top': 'calc(' + $headerHeight + 'px - 2.2px)'
+    });
+  }
+  setHeight();
+  $(window).resize(function () {
+    setHeight();
+  });
+
     setTimeout(function () {
         if (location.hash) {
             window.scrollTo(0, 0);
