@@ -35,13 +35,6 @@ get_header();
       </div><!-- ./l-inner -->
       <div class="right-works-txt">
         <h3 class="works-item-ttl"><?php the_title(); ?></h3>
-        <?php
-                        if(get_field('work_description')){
-                        echo '<div class="works-item-txt">
-                        '.get_field('work_description').'
-                        </div>';
-                        }
-                        ?>
         <div class="works-list-group">
           <div class="works-list"><span>業種</span>
             <p><?php the_field('industry'); ?></p>

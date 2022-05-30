@@ -143,13 +143,6 @@ get_header();
            } ?>
       </div>
       <h4 class="works-ttl"><?php the_title(); ?></h4>
-      <?php
-         if(get_field('work_description')){
-         echo '<div class="works-txt">
-         '.get_field('work_description').'
-         </div>';
-         }
-         ?>
       <div class="works-list-group">
         <div class="works-list"><span>業種</span>
           <p><?php the_field('industry'); ?></p>
