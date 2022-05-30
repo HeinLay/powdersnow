@@ -159,7 +159,7 @@ get_header();
       <?php wp_reset_query(); ?>
       <?php endif; ?>
       </ul>
-      <a href="#" class="detail-btn">詳しくはこちら</a>
+      <a href="<?php echo get_post_type_archive_link('works'); ?>" class="detail-btn">詳しくはこちら</a>
     </section><!-- ./sec-works -->
   </div><!-- #/service-page -->
 </div><!-- ./content -->
