@@ -304,12 +304,14 @@ get_header();
              echo '<div class="column-img no-image">';
            } ?>
         </div>
-        <div class="column-txt">
-          <h3 class="column-item-ttl"><?php the_title(); ?></h3>
-          <div class="desc pc"><?php the_content(); ?></div>
-        </div>
       </a>
-      <p class="cat-name"><a href="<?php echo $cat_link; ?>"><?php echo $cat_name; ?></a></p>
+        <div class="column-txt">
+          <a href="<?php the_permalink( ); ?>">
+            <h3 class="column-item-ttl"><?php the_title(); ?></h3>
+            <div class="desc pc"><?php the_content(); ?></div>
+          </a>
+          <p class="cat-name"><a href="<?php echo $cat_link; ?>"><?php echo $cat_name; ?></a></p>
+        </div>
     </div>
     <?php endwhile; ?>
     <?php endif; ?>

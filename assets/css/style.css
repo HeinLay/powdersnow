@@ -1788,7 +1788,7 @@
 
   .sec-question .question-col {
     width: 28.645vw;
-    padding: 2.887vw 3.435vw 2.032vw;
+    padding: 4.887vw 3.435vw 2.132vw;
   }
 
   .sec-question .question-col .question-col-img {
@@ -1796,7 +1796,7 @@
   }
 
   .sec-question .question-col .question-txt {
-    padding-top: 3.145vw;
+    padding-top: 1.845vw;
     font-size: 1.452vw;
   }
 
