@@ -61,7 +61,6 @@ img {
   max-width: 100%;
 }
 
-
 .wrapper {
   margin: 0 auto;
   max-width: 1920px;
@@ -120,6 +119,7 @@ img {
 .menu-header-navigation-container ul {
   display: flex;
   justify-content: space-between;
+  font-weight: 500;
 }
 
 .header-contact {
@@ -761,7 +761,7 @@ footer {
     display: flex;
     justify-content: center;
     width: 100%;
-    padding-bottom: 9.744vw;
+    padding-bottom: 10.344vw;
   }
 
   .contact-gmail::before {
