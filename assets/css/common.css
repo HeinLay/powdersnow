@@ -320,8 +320,8 @@ img {
   display: flex;
   justify-content: center;
   align-items: center;
-  font-size: 15px;
   margin-bottom: 100px;
+  font-size: 15px;
 }
 
 .nav-links a:first-child,
@@ -603,8 +603,8 @@ footer {
   /* pagination
 ------------------------------------------------------------- */
   .nav-links {
-    font-size: 1.21vw;
     margin-bottom: 8.065vw;
+    font-size: 1.21vw;
   }
 
   .nav-links a:first-child,
@@ -920,8 +920,8 @@ footer {
   /* pagination
 ------------------------------------------------------------- */
   .nav-links {
-    font-size: 3.077vw;
     margin-bottom: 15.385vw;
+    font-size: 3.077vw;
   }
 
   .nav-links a:first-child,

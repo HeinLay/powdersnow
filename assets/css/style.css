@@ -2308,15 +2308,15 @@
   }
 
   #works-detail-page .sec-works-detail .works-detail-txt .works-list-group {
-    margin: 1.452vw 15.403vw 6.048vw;   
+    margin: 1.452vw 15.403vw 6.048vw;
     padding: 2.984vw 3.226vw 1.452vw;
     border: 0.081vw solid #1d4366;
   }
 
-  #works-detail-page .sec-works-detail .works-detail-txt h4 {   
-    font-size: 1.613vw;
+  #works-detail-page .sec-works-detail .works-detail-txt h4 {
     margin: 2.661vw 0 2.339vw;
     padding-left: 8.065vw;
+    font-size: 1.613vw;
   }
 
   #works-detail-page .sec-works-detail .works-detail-txt h4::before {
