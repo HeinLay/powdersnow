@@ -552,7 +552,7 @@
 #works-page .sec-works .works-item-row .right-works-txt .works-list,
 #works-detail-page .sec-works-detail .works-detail-txt .works-list-group .works-list {
   display: flex;
-  align-items: flex-start;
+  align-items: baseline;
   padding-bottom: 15px;
 }
 

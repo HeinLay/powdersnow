@@ -13,7 +13,7 @@
 
 <section class="sec-contact">
   <div class="l-inner">
-    <h2 class="contact-ttl">CYBAR &nbsp; VALUEに関して <br class="sp"> ご不明な点がございましたら <br>
+    <h2 class="contact-ttl">CYBER &nbsp; VALUEに関して <br class="sp"> ご不明な点がございましたら <br>
       お気軽にお問い合わせ下さい</h2>
     <div class="contact-row">
       <div class="contact-blk contact-blk-sp">
