@@ -8,13 +8,9 @@ get_header() ?>
 </section><!-- ./sec-mv -->
 <div class="content">
   <div id="works-detail-page">
-    <section class="sec-works-detail l-inner">
+    <section class="sec-works-detail l-inner">      
       <div class="works-detail-img">
-        <?php if (has_post_thumbnail()) : ?>
         <?php  echo get_the_post_thumbnail( $post->ID, 'thumbnail' ); ?>
-        <?php else : ?>
-        <img src="<?php print get_template_directory_uri(); ?>/assets/images/common/no_image.jpg" alt="Image">
-        <?php endif; ?>
       </div><!-- ./works-detail-img -->
       <div class="works-detail-txt">
         <h3 class="works-detail-ttl"><?php the_title(); ?></h3>

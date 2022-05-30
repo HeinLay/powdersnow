@@ -552,7 +552,7 @@
 #works-page .sec-works .works-item-row .right-works-txt .works-list,
 #works-detail-page .sec-works-detail .works-detail-txt .works-list-group .works-list {
   display: flex;
-  align-items: center;
+  align-items: flex-start;
   padding-bottom: 15px;
 }
 
@@ -2738,7 +2738,7 @@
   }
 
   .sec-reason .detail-btn {
-    width: 50%;
+    width: 44.872vw;
   }
 
   /* sec-question
