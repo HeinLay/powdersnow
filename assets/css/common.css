@@ -832,10 +832,6 @@ footer {
     transform: translateY(-50%);
   }
 
-  #menu-item-77>a.open::before {
-    transform: rotate(-135deg);
-  }
-
   #menu-item-219 {
     display: inline-block;
   }
