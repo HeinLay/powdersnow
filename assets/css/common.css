@@ -830,6 +830,13 @@ footer {
     background: url('../images/common/ico_dropdown_arrow.png')no-repeat center/cover;
     content: '';
     transform: translateY(-50%);
+    transition: all .3s;
+  }
+
+  #menu-item-77>a.open::before {
+    transform: rotate(-180deg);
+    top: 20%;
+    transition: all .3s;
   }
 
   #menu-item-219 {

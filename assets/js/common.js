@@ -66,6 +66,7 @@ $(document).ready(function () {
 }
 else {
     $('#menu-item-77').click(function () {
+      $('#menu-item-77>a').toggleClass('open');
       $(this).children('ul').slideToggle(700);
     });
 }
