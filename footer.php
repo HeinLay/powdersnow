@@ -22,7 +22,7 @@
             <img src="<?php bloginfo('template_directory'); ?>/assets/images/common/ico_email_circle.png" alt="メールでのお問い合わせはこちら">
           </div>
           <div class="instruction-txt-group">
-            <p class="instruction-txt">メールでの <br class="sp"> お問い合わせはこちら</p>
+            <p class="instruction-txt">お問い合わせはこちら</p>
           </div>
         </div>
         <a href="<?php echo get_permalink(get_page_by_path('contact')) ?>" class="cmn-contactbtn">お問い合わせ</a>
@@ -57,18 +57,19 @@
         </div>
     </div>-->
 </div><!-- ./operating-company -->
-<div id="chatbot-btn" class="chat-bot-btn">
+<!--<div id="chatbot-btn" class="chat-bot-btn">
   <a href="#" class="chat-bot">
     <div class="chat-icon">
       <img src="<?php bloginfo('template_directory'); ?>/assets/images/common/ico_chat.png" alt="ChatBot">
     </div>
     <p>チャットボットのサンプルです</p>
   </a>
-</div><!-- ./chat-bot-btn -->
+</div>-->
+<!-- ./chat-bot-btn -->
 <footer>
   <div class="l-inner footer-blk">
     <?php wp_nav_menu(array('theme_location'=>'secondary'))?>
-    <p class="copyright-txt">©2020 Roadmap inc.</p>
+    <p class="copyright-txt">&copy;2022 Roadmap inc.</p>
   </div>
 </footer>
 </div><!-- ./wrapper -->

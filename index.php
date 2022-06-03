@@ -123,19 +123,19 @@ get_header();
     <div class="question-blk">
       <div class="question-col">
         <div class="question-col-img">
-          <img src="<?php bloginfo('template_directory'); ?>/assets/images/top/ico_firewall.png" alt="Firewall">
+          <img src="<?php bloginfo('template_directory'); ?>/assets/images/top/ico_person_search.png" alt="Firewall">
         </div>
         <p class="question-txt">検索サイトで自社の評判を下げるようなキーワードが出てくる</p>
       </div>
       <div class="question-col">
         <div class="question-col-img">
-          <img src="<?php bloginfo('template_directory'); ?>/assets/images/top/ico_person_search.png" alt="Search">
+          <img src="<?php bloginfo('template_directory'); ?>/assets/images/top/ico_firewall.png" alt="Search">
         </div>
         <p class="question-txt">自社にどのような炎上・風評被害の潜在リスクがあるか整理できていない</p>
       </div>
       <div class="question-col">
         <div class="question-col-img">
-          <img src="<?php bloginfo('template_directory'); ?>/assets/images/top/ico_firewall.png" alt="Firewall">
+          <img src="<?php bloginfo('template_directory'); ?>/assets/images/top/ico_blackbox.png" alt="BlackBox">
         </div>
         <p class="question-txt">セキュリティ専門家による定期チェックを実施しておらず、課題や必要予算が見えていない</p>
       </div>

@@ -116,10 +116,32 @@ img {
   width: 490px;
 }
 
-.menu-header-navigation-container ul {
+.menu-header-navigation-container .menu {
   display: flex;
   justify-content: space-between;
   font-weight: 400;
+}
+
+.sub-menu {
+  display: none;
+  position: absolute;
+  z-index: 1;
+  padding: 12px 16px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  background-color: #ffffff;
+  min-width: 160px;
+}
+
+.sub-menu.is-show {
+  display: block;
+}
+
+#menu-item-77 .sub-menu li {
+  padding: 10px 0;
+}
+
+#menu-item-219 {
+  display: none;
 }
 
 .header-contact {
@@ -481,6 +503,24 @@ footer {
     width: 70%;
   }
 
+  .sub-menu {
+    padding: 0.968vw 1.29vw;
+    box-shadow: 0vw 0.645vw 1.29vw 0vw rgba(0, 0, 0, 0.2);
+    min-width: 12.903vw;
+  }
+
+  #menu-item-77>a {
+    pointer-events: none;
+  }
+
+  #menu-item-77 .sub-menu li {
+    padding: 0.806vw 0;
+  }
+
+  #menu-item-219 {
+    display: inline-block;
+  }
+
   .contact-gmail::before {
     width: 1.452vw;
     height: 1.452vw;
@@ -740,22 +780,64 @@ footer {
     width: 100%;
   }
 
-  .menu-header-navigation-container ul {
+  .menu-header-navigation-container .menu {
+    height: 84.928vw;
+    overflow-y: scroll;
+  }
+
+  .menu-header-navigation-container .menu {
     display: flex;
     flex-direction: column;
+    justify-content: unset;
     padding: 9.459vw 0 3.554vw;
     background-color: #ffffff;
     font-size: 3.846vw;
     text-align: center;
   }
 
-  .menu-header-navigation-container ul li {
+  .menu-header-navigation-container .menu li {
     width: 100%;
-    margin-bottom: 8.1vw;
+    margin-bottom: 8.242vw;
   }
 
   .header-logo .sp img {
     max-width: 53.077vw;
+  }
+
+  .sub-menu {
+    position: inherit;
+    padding: 3.677vw 4.103vw 0;
+    box-shadow: none;
+    min-width: 100%;
+  }
+
+  #menu-item-77 .sub-menu li {
+    margin-bottom: 0;
+    padding: 2.564vw 0;
+  }
+
+  #menu-item-77>a {
+    position: relative;
+    pointer-events: none;
+  }
+
+  #menu-item-77>a::before {
+    position: absolute;
+    top: 50%;
+    right: 6%;
+    width: 3.846vw;
+    height: 2.282vw;
+    background: url('../images/common/ico_dropdown_arrow.png')no-repeat center/cover;
+    content: '';
+    transform: translateY(-50%);
+  }
+
+  #menu-item-77>a.open::before {
+    transform: rotate(-135deg);
+  }
+
+  #menu-item-219 {
+    display: inline-block;
   }
 
   .header-contact {

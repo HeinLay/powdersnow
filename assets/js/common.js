@@ -56,6 +56,20 @@ $(document).ready(function () {
     $('.header-nav').fadeToggle('is-show');
   });
 
+  
+  /* Dropdown menu */
+
+  if (window.matchMedia('(min-width: 1024.9px)').matches) {
+    $('#menu-item-77').hover(function () {
+        $(this).children('ul').stop(true, false, true).slideToggle(700);
+    });
+}
+else {
+    $('#menu-item-77').click(function () {
+      $(this).children('ul').slideToggle(700);
+    });
+}
+
   /* Accordion */
   $('.faq-head').click(function () {
     if ($('.faq-body').is(':visible')) {
