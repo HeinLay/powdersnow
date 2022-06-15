@@ -321,15 +321,18 @@ get_header();
         <span class="plus-minus"></span>
       </div>
       <div class="faq-body">
-        <p>キーワードにもよりますが、早くて2日程度で効果が出ます。ただし、表示させたくないサイトがSEO対策を実施している場合、対策が長期に及ぶおそれもあります。</p>
+        <p>キーワードにもよりますが、早くて2日程度で効果が出ます。
+        <br>ただし、表示させたくないサイトがSEO対策を実施している場合、対策が長期に及ぶおそれもあります。
+        </p>
       </div>
       <div class="faq-head">
         <p><span class="faq-num">Q2</span><span class="faq-question">一度見えなくなったネガティブなサジェストやサイトが再浮上することはありますか？</span></p>
         <span class="plus-minus"></span>
       </div>
       <div class="faq-body">
-        <p>再浮上の可能性はあります。ただ、弊社ではご依頼のキーワードやサイトの動向を毎日チェックしており、
-          再浮上の前兆がみられた段階で対策を強化し、特定のサジェストやサイトが上位表示されることを防ぎます。</p>
+        <p>再浮上の可能性はあります。<br>
+        ただ、弊社ではご依頼のキーワードやサイトの動向を毎日チェックしており、<br>
+        再浮上の前兆がみられた段階で対策を強化し、特定のサジェストやサイトが上位表示されることを防ぎます。</p>
       </div>
       <div class="faq-head">
         <p><span class="faq-num">Q3</span><span class="faq-question">風評被害対策により検索エンジンからペナルティを受ける可能性はありませんか？</span></p>
@@ -337,15 +340,15 @@ get_header();
       </div>
       <div class="faq-body">
         <p>弊社の風評被害対策は、検索エンジンのポリシーに則った手法で実施するため、ペナルティの心配はありません。
-          業者によっては違法な手段で対策をおこなう場合があるため、ご注意ください。</p>
+        <br>業者によっては違法な手段で対策をおこなう場合があるため、ご注意ください。</p>
       </div>
       <div class="faq-head">
         <p><span class="faq-num">Q4</span><span class="faq-question">掲示板やSNSのネガティブな投稿を削除依頼しても受理されないのですが、対応可能ですか？ </span></p>
         <span class="plus-minus"></span>
       </div>
       <div class="faq-body">
-        <p>対応可能です。
-          弁護士との連携により法的な削除要請が可能なほか、投稿者の特定や訴訟もおこなえます。</p>
+        <p>対応可能です。<br>
+        弁護士との連携により法的な削除要請が可能なほか、投稿者の特定や訴訟もおこなえます。</p>
       </div>
       <div class="faq-head">
         <p><span class="faq-num">Q5</span><span class="faq-question">依頼内容が漏れないか心配です。</span></p>
@@ -360,7 +363,8 @@ get_header();
 
       </div>
       <div class="faq-body">
-        <p>可能です。ご依頼の際は他社さまとどのようなご契約、対応がなされたのかをすべてお伝えください。</p>
+        <p>可能です。<br>
+        ご依頼の際は他社さまとどのようなご契約、対応がなされたのかをすべてお伝えください。</p>
       </div>
       <div class="faq-head">
         <p><span class="faq-num">Q7</span><span class="faq-question">セキュリティ事故発生時にはすぐ対応していただけますか？</span></p>

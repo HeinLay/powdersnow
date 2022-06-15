@@ -704,7 +704,7 @@
 }
 
 .sec-faq .faq-container .faq-question {
-  width: 80%;
+  width: 86%;
 }
 
 .sec-faq .faq-container .faq-body {
@@ -3039,7 +3039,7 @@
   }
 
   .sec-faq .faq-container .faq-body p {
-    padding: 3.115vw 13.977vw;
+    padding: 3.115vw 11.277vw 3.115vw 13.977vw;
   }
 
   /*Service Page*/
