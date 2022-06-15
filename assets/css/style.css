@@ -698,7 +698,6 @@
 
 .sec-faq .faq-container .faq-num {
   width: 9%;
-  padding-right: 31px;
   color: #1d4366;
   font-size: 28px;
   vertical-align: middle;
@@ -1984,7 +1983,6 @@
   }
 
   .sec-faq .faq-container .faq-num {
-    padding-right: 2.5vw;
     font-size: 2.258vw;
   }
 
@@ -3005,7 +3003,7 @@
   }
 
   .sec-faq .faq-container .faq-head p {
-    width: 78%;
+    width: 86%;
     line-height: 2;
   }
 
@@ -3032,8 +3030,7 @@
 
   .sec-faq .faq-container .faq-num {
     display: inline-block;
-    width: 20%;
-    padding-right: 3.749vw;
+    width: 18%;
     font-size: 5.641vw;
   }
 
