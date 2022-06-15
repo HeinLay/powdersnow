@@ -641,6 +641,7 @@
 .sec-faq .faq-container .faq-head {
   display: flex;
   justify-content: space-between;
+  align-items: center;
   padding: 11px 10px 11px 20px;
   cursor: pointer;
   transition: border-bottom 0.3s ease-out;
@@ -653,6 +654,8 @@
 }
 
 .sec-faq .faq-container .faq-head p {
+  display: flex;
+  align-items: center;
   width: 90%;
 }
 
@@ -661,7 +664,6 @@
   width: 30px;
   height: 30px;
   margin: 0 0 1px 0;
-  margin-top: 10px;
   border: 1px solid #1d4366;
   cursor: pointer;
   border-radius: 50%;
@@ -695,10 +697,15 @@
 }
 
 .sec-faq .faq-container .faq-num {
+  width: 9%;
   padding-right: 31px;
   color: #1d4366;
   font-size: 28px;
   vertical-align: middle;
+}
+
+.sec-faq .faq-container .faq-question {
+  width: 80%;
 }
 
 .sec-faq .faq-container .faq-body {
@@ -711,7 +718,7 @@
 
 .sec-faq .faq-container .faq-body p {
   line-height: 2.2;
-  padding: 18px 90px;
+  padding: 18px 92px;
 }
 
 
@@ -1959,7 +1966,6 @@
     width: 2.419vw;
     height: 2.419vw;
     margin: 0 0 0.081vw 0;
-    margin-top: 0.806vw;
     border: 0.081vw solid #1d4366;
   }
 
@@ -2999,7 +3005,6 @@
   }
 
   .sec-faq .faq-container .faq-head p {
-    display: flex;
     width: 78%;
     line-height: 2;
   }
@@ -3008,7 +3013,6 @@
     width: 5.892vw;
     height: 5.892vw;
     margin: 0 0 0.256vw 0;
-    margin-top: 4.064vw;
     border: 0.256vw solid #1d4366;
   }
 
@@ -3028,14 +3032,17 @@
 
   .sec-faq .faq-container .faq-num {
     display: inline-block;
-    width: 30%;
-    padding-top: 1.938vw;
+    width: 20%;
     padding-right: 3.749vw;
     font-size: 5.641vw;
   }
 
+  .sec-faq .faq-container .faq-question {
+    width: 80%;
+  }
+
   .sec-faq .faq-container .faq-body p {
-    padding: 3.115vw 11.277vw;
+    padding: 3.115vw 13.977vw;
   }
 
   /*Service Page*/

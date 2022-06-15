@@ -298,13 +298,13 @@ get_header();
            } ?>
         </div>
       </a>
-        <div class="column-txt">
-          <a href="<?php the_permalink( ); ?>">
-            <h3 class="column-item-ttl"><?php the_title(); ?></h3>
-            <div class="desc pc"><?php the_content(); ?></div>
-          </a>
-          <p class="cat-name"><a href="<?php echo $cat_link; ?>"><?php echo $cat_name; ?></a></p>
-        </div>
+      <div class="column-txt">
+        <a href="<?php the_permalink( ); ?>">
+          <h3 class="column-item-ttl"><?php the_title(); ?></h3>
+          <div class="desc pc"><?php the_content(); ?></div>
+        </a>
+        <p class="cat-name"><a href="<?php echo $cat_link; ?>"><?php echo $cat_name; ?></a></p>
+      </div>
     </div>
     <?php endwhile; ?>
     <?php endif; ?>
@@ -317,71 +317,58 @@ get_header();
     <h2 class="toppg-ttl"><span class="sub-ttl">Q&A</span>よくある質問</h2>
     <div class="faq-container">
       <div class="faq-head">
-        <p><span class="faq-num">Q1</span><span class="faq-question">テキストテキストテキストテキストテキストテキストテキストテキスト</span></p>
+        <p><span class="faq-num">Q1</span><span class="faq-question">サジェスト対策はどのくらいで効果が出ますか？</span></p>
         <span class="plus-minus"></span>
       </div>
       <div class="faq-body">
-        <p>テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト
-          テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト
-          テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト
-          テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト
-          テキストテキストテキストテキスト</p>
+        <p>キーワードにもよりますが、早くて2日程度で効果が出ます。ただし、表示させたくないサイトがSEO対策を実施している場合、対策が長期に及ぶおそれもあります。</p>
       </div>
       <div class="faq-head">
-        <p><span class="faq-num">Q2</span><span class="faq-question">テキストテキストテキストテキストテキストテキストテキストテキスト</span></p>
+        <p><span class="faq-num">Q2</span><span class="faq-question">一度見えなくなったネガティブなサジェストやサイトが再浮上することはありますか？</span></p>
         <span class="plus-minus"></span>
       </div>
       <div class="faq-body">
-        <p>テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト
-          テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト
-          テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト
-          テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト
-          テキストテキストテキストテキスト</p>
+        <p>再浮上の可能性はあります。ただ、弊社ではご依頼のキーワードやサイトの動向を毎日チェックしており、
+          再浮上の前兆がみられた段階で対策を強化し、特定のサジェストやサイトが上位表示されることを防ぎます。</p>
       </div>
       <div class="faq-head">
-        <p><span class="faq-num">Q3</span><span class="faq-question">テキストテキストテキストテキストテキストテキストテキストテキスト</span></p>
+        <p><span class="faq-num">Q3</span><span class="faq-question">風評被害対策により検索エンジンからペナルティを受ける可能性はありませんか？</span></p>
         <span class="plus-minus"></span>
       </div>
       <div class="faq-body">
-        <p>テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト
-          テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト
-          テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト
-          テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト
-          テキストテキストテキストテキスト</p>
+        <p>弊社の風評被害対策は、検索エンジンのポリシーに則った手法で実施するため、ペナルティの心配はありません。
+          業者によっては違法な手段で対策をおこなう場合があるため、ご注意ください。</p>
       </div>
       <div class="faq-head">
-        <p><span class="faq-num">Q4</span><span class="faq-question">テキストテキストテキストテキストテキストテキストテキストテキスト</span></p>
+        <p><span class="faq-num">Q4</span><span class="faq-question">掲示板やSNSのネガティブな投稿を削除依頼しても受理されないのですが、対応可能ですか？ </span></p>
         <span class="plus-minus"></span>
       </div>
       <div class="faq-body">
-        <p>テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト
-          テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト
-          テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト
-          テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト
-          テキストテキストテキストテキスト</p>
+        <p>対応可能です。
+          弁護士との連携により法的な削除要請が可能なほか、投稿者の特定や訴訟もおこなえます。</p>
       </div>
       <div class="faq-head">
-        <p><span class="faq-num">Q5</span><span class="faq-question">テキストテキストテキストテキストテキストテキストテキストテキスト</span></p>
+        <p><span class="faq-num">Q5</span><span class="faq-question">依頼内容が漏れないか心配です。</span></p>
         <span class="plus-minus"></span>
       </div>
       <div class="faq-body">
-        <p>テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト
-          テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト
-          テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト
-          テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト
-          テキストテキストテキストテキスト</p>
+        <p>秘密保持契約を締結したうえで、ご依頼に関する秘密を厳守いたします。</p>
       </div>
       <div class="faq-head">
-        <p><span class="faq-num">Q6</span><span class="faq-question">テキストテキストテキストテキストテキストテキストテキストテキスト</span></p>
+        <p><span class="faq-num">Q6</span><span class="faq-question">他社に依頼していたのですが、乗り換えは可能ですか？</span></p>
         <span class="plus-minus"></span>
 
       </div>
       <div class="faq-body">
-        <p>テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト
-          テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト
-          テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト
-          テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト
-          テキストテキストテキストテキスト</p>
+        <p>可能です。ご依頼の際は他社さまとどのようなご契約、対応がなされたのかをすべてお伝えください。</p>
+      </div>
+      <div class="faq-head">
+        <p><span class="faq-num">Q7</span><span class="faq-question">セキュリティ事故発生時にはすぐ対応していただけますか？</span></p>
+        <span class="plus-minus"></span>
+
+      </div>
+      <div class="faq-body">
+        <p>はい。緊急時には最短即日でフォレンジックを実施いたします。</p>
       </div>
     </div>
   </div>
