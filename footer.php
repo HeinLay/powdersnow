@@ -40,7 +40,7 @@
       </div>
     </div>
   </div>
-</section><!-- ./sec-contact -->
+</section><!-- /.sec-contact -->
 <div class="operating-company l-inner">
   <a href="<?php echo home_url('/'); ?>" class="company-logo">
     <img src="<?php bloginfo('template_directory'); ?>/assets/images/common/img_logo.png" alt="CYBER_VALUE">
@@ -56,7 +56,7 @@
             <img src="<?php bloginfo('template_directory'); ?>/assets/images/common/img_company02_sp.png" alt="Pマーク" class="sp">
         </div>
     </div>-->
-</div><!-- ./operating-company -->
+</div><!-- /.operating-company -->
 <!--<div id="chatbot-btn" class="chat-bot-btn">
   <a href="#" class="chat-bot">
     <div class="chat-icon">
@@ -65,14 +65,14 @@
     <p>チャットボットのサンプルです</p>
   </a>
 </div>-->
-<!-- ./chat-bot-btn -->
+<!-- /.chat-bot-btn -->
 <footer>
   <div class="l-inner footer-blk">
     <?php wp_nav_menu(array('theme_location'=>'secondary'))?>
     <p class="copyright-txt">&copy;2022 Roadmap inc.</p>
   </div>
 </footer>
-</div><!-- ./wrapper -->
+</div><!-- /.wrapper -->
 <?php wp_footer(); ?>
 </body>
 

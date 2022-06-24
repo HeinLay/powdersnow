@@ -15,7 +15,7 @@ get_header();
   <div class="l-inner">
     <h2 class="mv-ttl"><span class="mvsub-ttl">EVENT & COLUMN</span>イベント・コラム</h2>
   </div>
-</section><!-- ./sec-mv -->
+</section><!-- /.sec-mv -->
 <div class="content">
   <div id="events-column-page">
     <div class="column-tabs">
@@ -34,7 +34,7 @@ get_header();
             <a href="<?php echo esc_url( get_category_link( get_cat_ID( '調査結果レポート' )) ); ?>#column-tabs-nav">調査結果レポート</a>
           </li>
         </ul>
-      </div><!-- ./column-tabs-header -->
+      </div><!-- /.column-tabs-header -->
       <div id="all" class="column-tab-content">
         <div class="column-item-row l-inner">
           <?php
@@ -75,9 +75,9 @@ get_header();
           'next_text' => 'NEXT &#10230;',
         )); ?>
       <?php wp_reset_query(); ?>
-    </div><!-- ./column-tabs -->
+    </div><!-- /.column-tabs -->
   </div><!-- #/events-column-page -->
-</div><!-- ./content -->
+</div><!-- /.content -->
 
 
 <?php

@@ -137,11 +137,11 @@ img {
   display: block;
 }
 
-#menu-item-77 .sub-menu li {
+.menu-item-has-children .sub-menu li {
   padding: 10px 0;
 }
 
-#menu-item-219 {
+.menu-item-has-children .sub-menu li:first-child {
   display: none;
 }
 
@@ -511,15 +511,15 @@ footer {
     min-width: 12.903vw;
   }
 
-  #menu-item-77>a {
+  .menu-item-has-children>a {
     pointer-events: none;
   }
 
-  #menu-item-77 .sub-menu li {
+  .menu-item-has-children .sub-menu li {
     padding: 0.806vw 0;
   }
 
-  #menu-item-219 {
+  .menu-item-has-children .sub-menu li:first-child {
     display: inline-block;
   }
 
@@ -811,17 +811,17 @@ footer {
     min-width: 100%;
   }
 
-  #menu-item-77 .sub-menu li {
+  .menu-item-has-children .sub-menu li {
     margin-bottom: 0;
     padding: 2.564vw 0;
   }
 
-  #menu-item-77>a {
+  .menu-item-has-children>a {
     position: relative;
     pointer-events: none;
   }
 
-  #menu-item-77>a::before {
+  .menu-item-has-children>a::before {
     position: absolute;
     top: 50%;
     right: 6%;
@@ -833,13 +833,13 @@ footer {
     transition: all .3s;
   }
 
-  #menu-item-77>a.open::before {
+  .menu-item-has-children>a.open::before {
     top: 20%;
     transform: rotate(-180deg);
     transition: all .3s;
   }
 
-  #menu-item-219 {
+  .menu-item-has-children .sub-menu li:first-child {
     display: inline-block;
   }
 

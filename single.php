@@ -18,7 +18,7 @@ $category_link = get_category_link($cat_id); ?>
   <div class="l-inner">
     <h2 class="mv-ttl"><span class="mvsub-ttl">EVENT & COLUMN</span>イベント・コラム</h2>
   </div>
-</section><!-- ./sec-mv -->
+</section><!-- /.sec-mv -->
 <div class="content">
   <div id="events-column-detail-page">
     <section class="events-column-detail">
@@ -26,7 +26,7 @@ $category_link = get_category_link($cat_id); ?>
         <div class="events-detail-img">
           <?php  echo get_the_post_thumbnail( $post->ID, 'thumbnail' ); ?>
           <a href="<?php echo $category_link; ?>" class="events-detail-btn"><?php echo $cat_name; ?></a>
-        </div><!-- ./events-detail-img -->
+        </div><!-- /.events-detail-img -->
         <h3 class="event-detail-ttl"><?php the_title(); ?></h3>
           <?php the_content(); ?>
         <div class="single-pagination">
@@ -35,9 +35,9 @@ $category_link = get_category_link($cat_id); ?>
             <li><a href="<?php echo get_post_type_archive_link('works'); ?>">コラム一覧へ</a></li>
             <li><?php next_post_link('%link','次の事例へ&#10230;'); ?></li>
           </ul>
-        </div><!-- ./single-pagination -->
+        </div><!-- /.single-pagination -->
       </div>
-    </section><!-- ./events-column-detail -->
+    </section><!-- /.events-column-detail -->
   </div><!-- #/events-column-detail-page -->
 </div><!-- content -->
 

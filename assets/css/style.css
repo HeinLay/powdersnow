@@ -1332,10 +1332,6 @@
   color: #ffffff;
 }
 
-#column-tabs-nav li a.active {
-  background: red;
-}
-
 #events-column-page .column-tabs .column-tab-content {
   padding: 100px 0 0;
 }

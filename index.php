@@ -34,7 +34,7 @@ get_header();
       <img src="<?php bloginfo('template_directory'); ?>/assets/images/top/img_person.png" alt="あらゆる悪意から会社を守り企業価値を最大化する">
     </div>
   </div>
-</section><!-- ./sec-mv -->
+</section><!-- /.sec-mv -->
 <section class="sec-about l-inner">
   <div class="about-blk">
     <h2 class="toppg-ttl"><span class="sub-ttl">ABOUT</span><span class="align-ttl">CYBER VALUE</span>とは</h2>
@@ -48,7 +48,7 @@ get_header();
       このようなリスクから企業を守り、運営にのみ注力していただけるよう、私たちが全力でサポートいたします。
     </p>
   </div>
-</section><!-- ./sec-about -->
+</section><!-- /.sec-about -->
 <section class="sec-reason">
   <div class="l-inner">
     <h2 class="toppg-ttl"><span class="sub-ttl">REASON</span><span class="align-ttl">CYBER VALUE</span>が<br class="sp">選ばれる理由
@@ -116,7 +116,7 @@ get_header();
     </div>
     <a href="<?php echo get_permalink(get_page_by_path('contact')) ?>" class="detail-btn">お問い合わせはこちら</a>
   </div>
-</section><!-- ./sec-reason -->
+</section><!-- /.sec-reason -->
 <section class="sec-question">
   <div class="l-inner">
     <h2 class="toppg-ttl">こんなお悩みありませんか？</h2>
@@ -141,7 +141,7 @@ get_header();
       </div>
     </div>
   </div>
-</section><!-- ./sec-question -->
+</section><!-- /.sec-question -->
 <section class="sec-service">
   <div class="l-inner">
     <h2 class="toppg-ttl"><span class="sub-ttl">SERVICE</span>サービス内容</h2>
@@ -227,7 +227,7 @@ get_header();
     </div>
     <a href="<?php echo get_permalink(get_page_by_path('service')) ?>" class="detail-btn">詳しくはこちら</a>
   </div>
-</section><!-- ./sec-service -->
+</section><!-- /.sec-service -->
 <section class="sec-works">
   <div class="l-inner">
     <h2 class="toppg-ttl"><span class="sub-ttl">WORKS</span>導入事例</h2>
@@ -265,7 +265,7 @@ get_header();
   </div>
   <a href="<?php echo get_post_type_archive_link( 'works' ); ?>" class="detail-btn">詳しくはこちら</a>
   </div>
-</section><!-- ./sec-works -->
+</section><!-- /.sec-works -->
 <section class="sec-column">
   <div class="l-inner">
     <div class="left-column-item">
@@ -311,7 +311,7 @@ get_header();
     <a href="<?php echo get_permalink(get_page_by_path('event-column')) ?>" class="column-btn detail-btn sp">一覧を見る</a>
   </div>
   </div>
-</section><!-- ./sec-column -->
+</section><!-- /.sec-column -->
 <section class="sec-faq">
   <div class="l-inner">
     <h2 class="toppg-ttl"><span class="sub-ttl">Q&A</span>よくある質問</h2>
@@ -376,7 +376,7 @@ get_header();
       </div>
     </div>
   </div>
-</section><!-- ./sec-faq -->
+</section><!-- /.sec-faq -->
 
 <?php
 get_footer();

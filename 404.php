@@ -13,7 +13,7 @@ get_header();
   <div class="l-inner">
     <h2 class="mv-ttl"><span class="mvsub-ttl">404 NOT FOUND</span>お探しのページは見つかりませんでした</h2>
   </div>
-</section><!-- ./sec-mv -->
+</section><!-- /.sec-mv -->
 <div class="content">
   <div id="error-page">
     <div class="l-inner">
@@ -23,7 +23,7 @@ get_header();
     </div>
   </div>
 </div>
-<!--content-->
+<!--/.content-->
 
 <?php
 get_footer();

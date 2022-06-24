@@ -19,7 +19,7 @@ get_header();
 			<div class="l-inner">
 				<h2 class="mv-ttl"><span class="mvsub-ttl">TERMS</span>利用規約</h2>
 			</div>
-  	</section><!-- ./sec-mv -->
+  	</section><!-- /.sec-mv -->
 	<?php endif;  ?>
 	<div class="content">
 		<div id="terms">

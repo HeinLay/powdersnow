@@ -14,7 +14,7 @@ get_header();
   <div class="l-inner">
     <h2 class="mv-ttl"><span class="mvsub-ttl">WORKS</span>導入事例</h2>
   </div>
-</section><!-- ./sec-mv -->
+</section><!-- /.sec-mv -->
 <div class="content">
   <div id="works-page">
     <section class="sec-works">
@@ -32,7 +32,7 @@ get_header();
 								} else {
 									echo '<div class="left-works-img no-image">';
 								} ?>
-      </div><!-- ./l-inner -->
+      </div><!-- /.l-inner -->
       <div class="right-works-txt">
         <h3 class="works-item-ttl"><?php the_title(); ?></h3>
         <div class="works-list-group">
@@ -46,7 +46,7 @@ get_header();
             <p><?php the_field('range'); ?></p>
           </div>
         </div>
-      </div><!-- ./right-works-txt -->
+      </div><!-- /.right-works-txt -->
       </a>
       <?php endwhile; ?>
       <?php the_posts_pagination(array(
@@ -55,8 +55,8 @@ get_header();
                 )); ?>
       <?php wp_reset_query(); ?>
       <?php endif; ?>
-  </section><!-- ./sec-works -->
+  </section><!-- /.sec-works -->
   </div><!-- #/works-page -->
-</div><!-- ./content -->
+</div><!-- /.content -->
 <?php
 get_footer();

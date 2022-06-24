@@ -60,13 +60,13 @@ $(document).ready(function () {
   /* Dropdown menu */
 
   if (window.matchMedia('(min-width: 1024.9px)').matches) {
-    $('#menu-item-77').hover(function () {
+    $('.menu-item-has-children').hover(function () {
         $(this).children('ul').stop(true, false, true).slideToggle(700);
     });
 }
 else {
-    $('#menu-item-77').click(function () {
-      $('#menu-item-77>a').toggleClass('open');
+    $('.menu-item-has-children').click(function () {
+      $('.menu-item-has-children>a').toggleClass('open');
       $(this).children('ul').slideToggle(700);
     });
 }

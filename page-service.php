@@ -15,7 +15,7 @@ get_header();
   <div class="l-inner">
     <h2 class="mv-ttl"><span class="mvsub-ttl">SERVICE</span>サービス</h2>
   </div>
-</section><!-- ./sec-mv -->
+</section><!-- /.sec-mv -->
 <div class="content">
   <div id="service-page">
     <section class="sec-service">
@@ -123,7 +123,7 @@ get_header();
           </div>
         </div>
       </div>
-    </section><!-- ./sec-service -->
+    </section><!-- /.sec-service -->
     <section class="sec-works">
       <div class="l-inner">
         <h2 class="toppg-ttl"><span class="sub-ttl">WORKS</span>導入事例</h2>
@@ -160,8 +160,8 @@ get_header();
       <?php endif; ?>
       </ul>
       <a href="<?php echo get_post_type_archive_link('works'); ?>" class="detail-btn">詳しくはこちら</a>
-    </section><!-- ./sec-works -->
+    </section><!-- /.sec-works -->
   </div><!-- #/service-page -->
-</div><!-- ./content -->
+</div><!-- /.content -->
 <?php
 get_footer();
